@@ -1,29 +1,39 @@
-create schema  `vttp_project`;
+-- create schema  `vttp_project`;
+use vttp_project;
 
 create table user_data(
+	user_data_id varchar(8) not null,
 	email varchar(128) not null,
-    username varchar(128) not null,
+    display_name varchar(128) not null,
     user_password varchar(128) not null,
-    user_settings_id int not null,
-    constraint pk_email primary key (email),
-    constraint fk_user_settings_id foreign key (settings_id) references user_settings(id)
+    image_url varchar(256),
+    constraint pk_user_data_id primary key (user_data_id)
 );
 
 create table user_settings(
-	id int not null,
-    user_data_email varchar(128) not null,
+	user_settings_id varchar(8) not null,
+    user_data_id varchar(8) not null,
     email_notif boolean default(true),
     tele_notif boolean default(true),
-    profile_picture_url text,
-	constraint pk_id primary key (id),
-    constraint fk_user_data_email foreign key (user_data_email) references user_data(email)
+	constraint pk_user_settings_id primary key (user_settings_id),
+    constraint fk_user_data_settings_id foreign key (user_data_id) references user_data(user_data_id)
 );
 
-create table post_details(
-	id int not null,
+create table event_details(
+	event_details_id varchar(8) not null,
+    user_data_id varchar(8) not null,
+    title varchar(128) not null,
     description text not null,
     image_url text,
-    user_data_email varchar(128) not null,
-    constraint pk_id primary key (id),
-    constraint fk_user_data_email foreign key (user_data_email) references user_data(email)
+    constraint pk_event_details_id primary key (event_details_id),
+    constraint fk_user_data_event_id foreign key (user_data_id) references user_data(user_data_id)
+);
+
+create table booth_details(
+	booth_id varchar(8) not null,
+    user_data_id varchar(8) not null,
+    event_details_id varchar(8) not null,
+    constraint pk_booth_id primary key (booth_id),
+    constraint fk_user_data_booth_id foreign key (user_data_id) references user_data(user_data_id),
+    constraint fk_event_details_id foreign key (event_details_id) references event_details(event_details_id)
 );
