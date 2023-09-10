@@ -1,0 +1,33 @@
+.login-input {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.login-email-password {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.login-button {
+  text-align: right;
+}
+.divider {
+  margin: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.create-account {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up {
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+package vttp_project_backend.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+// import jakarta.validation.Valid;
+import vttp_project_backend.models.EventDetails;
+// import vttp_project_backend.exception.CreateAccountException;
+// import vttp_project_backend.exception.ExistingEmailException;
+import vttp_project_backend.models.UserData;
+// import vttp_project_backend.models.UserRegistration;
+import vttp_project_backend.service.VttpProjectService;
+
+@Controller
+@RequestMapping("/api")
+public class VttpProjectController {
+    @Autowired private VttpProjectService service;
+
+    @PostMapping(path = "/create", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<String> createAccount(@RequestBody UserData u) {
+        System.out.println("postmapping called! createAccount()");
+        System.out.println("u >> " + u.getDisplayName());
+        String response = "";
+
+        // exceptions handled so no need to catch
+        response = service.createUser(u);
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping(path = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<UserData> login(@RequestBody UserData u) {
+        System.out.println("postmapping called! login()");
+        System.out.println("u >> " + u.getEmail());
+
+        UserData user = new UserData();
+
+        // exceptions handled so no need to catch
+        user = service.login(u);
+        return ResponseEntity.ok(user);
+    }
+
+    @GetMapping(path = "/home", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<EventDetails>> home() {
+        System.out.println("getmapping called! home()");
+        List<EventDetails> events =  service.getEvents();
+        return ResponseEntity.ok(events);
+    }
+
+    @GetMapping(path = "/event/{eventId}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<EventDetails> getEvent(@PathVariable String eventId) {
+        System.out.println("getmpping called! getEvent()");
+        EventDetails e = service.getEventById(eventId);
+
+        return ResponseEntity.ok(e);
+    }
+
+    @GetMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<EventDetails>> search(@RequestParam String keyword) {
+        System.out.println("getmapping called! search()");
+
+        String[] keywords = keyword.split("%20");
+        List<EventDetails> events =  service.search(keywords);
+        return ResponseEntity.ok(events);
+    }
+}

@@ -1,1 +1,30 @@
-<p>createaccount works!</p>
+<div class="create-input">
+  <h1 class="create-header">Create an Account</h1>
+  <form [formGroup]="createForm" class="create-name-email-password" (ngSubmit)="createAccount()">
+    <div>
+      <mat-form-field class="full-width">
+        <mat-label>Name</mat-label>
+        <input formControlName="displayName" type="text" matInput>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="full-width">
+        <mat-label>Email</mat-label>
+        <input formControlName="email" type="email" matInput>
+        <mat-error>Please input a valid email</mat-error>
+      </mat-form-field>
+    </div>
+
+    <div>
+      <mat-form-field class="full-width">
+        <mat-label>Password</mat-label>
+        <input formControlName="userPassword" type="password" matInput>
+      </mat-form-field>
+    </div>
+    <div class="create-button">
+      <button mat-raised-button color="primary" type="submit"
+      [disabled]="createForm.invalid">Create an Account</button>
+    </div>
+
+  </form>

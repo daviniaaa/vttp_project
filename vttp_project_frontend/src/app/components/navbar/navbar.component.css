@@ -1,0 +1,56 @@
+.spacer-between-home-and-search {
+  width: 1%;
+}
+
+mat-form-field {
+  .mdc-text-field--filled {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .mat-mdc-text-field-wrapper {
+    width: 140%;
+    height: 32px;
+  }
+
+  .mat-mdc-form-field-subscript-wrapper{
+    display: none;
+  }
+  .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(.mdc-text-field--textarea)
+  .mat-mdc-form-field-infix {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .mdc-line-ripple {
+    display: none;
+  }
+}
+
+.mat-mdc-form-field-input-control.mat-mdc-form-field-input-control {
+  width: 90%
+}
+
+.mat-mdc-form-field {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.search-input {
+  align-self: top;
+}
+.search-icon {
+  margin-left: 90px;
+}
+
+.mat-mdc-fab, .mat-mdc-mini-fab, .mat-mdc-button-touch-target{
+  box-shadow: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.sign-out-button {
+  color:firebrick;
+}

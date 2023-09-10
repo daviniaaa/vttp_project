@@ -1,0 +1,21 @@
+<form [formGroup]="boothForm" (ngSubmit)="newBooth()">
+  <div>
+    <mat-form-field class="full-width">
+      <mat-label>Booth Name</mat-label>
+      <input formControlName="boothName" type="text" matInput>
+    </mat-form-field>
+  </div>
+
+  <div>
+    <mat-form-field class="full-width">
+      <mat-label>Description</mat-label>
+      <textarea formControlName="description" type="text" matInput></textarea>
+    </mat-form-field>
+  </div>
+
+  <div class="div-post-button">
+    <button mat-raised-button color="primary">Post</button>
+  </div>
+
+
+</form>

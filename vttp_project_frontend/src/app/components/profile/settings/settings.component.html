@@ -1,0 +1,23 @@
+<div class="settings-container">
+  <div class="settings-options">
+    <p [class]="accountFocused" (click)="focus('account')">My Account</p>
+    <p [class]="notificationsFocused" (click)="focus('settings')">Notifications</p>
+    <p [class]="advancedFocused" (click)="focus('advanced')">Advanced</p>
+  </div>
+
+  <mat-divider [vertical]="true"></mat-divider>
+
+  <div class="details">
+    <h1>Settings</h1>
+    <div *ngIf="accountFocused=='settings-option focused'">
+      <app-account class="component"></app-account>
+    </div>
+    <div *ngIf="notificationsFocused=='settings-option focused'">
+      <app-notifications class="component"></app-notifications>
+    </div>
+    <div *ngIf="advancedFocused=='settings-option focused'">
+      <app-advanced class="component"></app-advanced>
+    </div>
+  </div>
+
+</div>

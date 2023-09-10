@@ -1,0 +1,9 @@
+<div *ngFor="let searchResult of searchResults">
+  <mat-card class="search-card" routerLink="/events/{{searchResult.eventDetailsId}}">
+    <img class="search-card-img" src="{{searchResult.imageUrl}}">
+    <mat-card-title class="search-card-title">{{searchResult.title}}</mat-card-title>
+
+
+
+  </mat-card>
+</div>
