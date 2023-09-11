@@ -4,6 +4,7 @@ export interface UserData {
   displayName?: string;
   userPassword: string;
   imageUrl?: string;
+  confirmPassword?: string;
 }
 
 export interface EventDetails {

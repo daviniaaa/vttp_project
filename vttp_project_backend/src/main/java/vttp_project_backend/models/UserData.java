@@ -2,30 +2,30 @@ package vttp_project_backend.models;
 
 public class UserData {
     private String userDataId;
-    private String email;
+    private String username;
     private String displayName;
-    private String userPassword;
+    private String password;
     private String imageUrl;
 
     public UserData() {
     }
 
-    public UserData(String email, String userPassword) {
-        this.email = email;
-        this.userPassword = userPassword;
+    public UserData(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
-    public UserData(String email, String displayName, String userPassword) {
-        this.email = email;
+    public UserData(String username, String displayName, String password) {
+        this.username = username;
         this.displayName = displayName;
-        this.userPassword = userPassword;
+        this.password = password;
     }
 
-    public UserData(String userDataId, String email, String displayName, String userPassword, String imageUrl) {
+    public UserData(String userDataId, String username, String displayName, String password, String imageUrl) {
         this.userDataId = userDataId;
-        this.email = email;
+        this.username = username;
         this.displayName = displayName;
-        this.userPassword = userPassword;
+        this.password = password;
         this.imageUrl = imageUrl;
     }
 
@@ -35,11 +35,11 @@ public class UserData {
     public void setUserDataId(String userDataId) {
         this.userDataId = userDataId;
     }
-    public String getEmail() {
-        return email;
+    public String getUsername() {
+        return username;
     }
-    public void setEmail(String email) {
-        this.email = email;
+    public void setUsername(String username) {
+        this.username = username;
     }
     public String getDisplayName() {
         return displayName;
@@ -47,11 +47,11 @@ public class UserData {
     public void setDisplayName(String displayName) {
         this.displayName = displayName;
     }
-    public String getUserPassword() {
-        return userPassword;
+    public String getPassword() {
+        return password;
     }
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
+    public void setPassword(String password) {
+        this.password = password;
     }
     public String getImageUrl() {
         return imageUrl;

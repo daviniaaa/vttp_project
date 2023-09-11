@@ -25,7 +25,8 @@ export class CreateaccountComponent implements OnInit {
     this.createForm = this.fb.group({
       displayName: this.fb.control<string>('', [ Validators.required ]),
       email: this.fb.control<string>('', [ Validators.required, Validators.email ]),
-      userPassword: this.fb.control<string>('', [ Validators.required ])
+      userPassword: this.fb.control<string>('', [ Validators.required ]),
+      confirmPassword: this.fb.control<string>('', [ Validators.required ])
     })
   }
 

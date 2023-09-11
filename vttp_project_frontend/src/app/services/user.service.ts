@@ -1,6 +1,6 @@
 import { UserData } from './../models';
 import { EventEmitter, Injectable, Output } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Subject, firstValueFrom } from 'rxjs';
 
 @Injectable({
@@ -14,11 +14,13 @@ export class UserService {
   constructor(private httpClient: HttpClient) { }
 
   createAccount(u: UserData) {
-    return firstValueFrom(this.httpClient.post('/api/create', u));//, { responseType: 'text' }));
+    return firstValueFrom(this.httpClient.post('/api/create', u, { responseType: 'text' }));
   }
 
   login(u: UserData) {
-    return firstValueFrom(this.httpClient.post('/api/login', u));//, { responseType: 'text' }));
+    const headers: HttpHeaders = new HttpHeaders({Authorization: 'Basic '
+    + window.btoa(u.email + ':' + u.userPassword)})
+    return firstValueFrom(this.httpClient.post('/api/login', { headers }));//, { responseType: 'text' }));
   }
 
   getProfile(id: string) {

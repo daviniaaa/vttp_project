@@ -11,13 +11,13 @@ public class UserRegistration {
     @NotBlank
     private String userPassword;
     @NotBlank
-    private String passwordConfirm;
+    private String confirmPassword;
     
-    public UserRegistration(String email, String displayName, String userPassword, String passwordConfirm) {
+    public UserRegistration(String email, String displayName, String userPassword, String confirmPassword) {
         this.email = email;
         this.displayName = displayName;
         this.userPassword = userPassword;
-        this.passwordConfirm = passwordConfirm;
+        this.confirmPassword = confirmPassword;
     }
 
     public String getEmail() {
@@ -44,12 +44,12 @@ public class UserRegistration {
         this.userPassword = userPassword;
     }
 
-    public String getPasswordConfirm() {
-        return passwordConfirm;
+    public String getconfirmPassword() {
+        return confirmPassword;
     }
 
-    public void setPasswordConfirm(String passwordConfirm) {
-        this.passwordConfirm = passwordConfirm;
+    public void setconfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
     }
 
     

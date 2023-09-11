@@ -22,6 +22,14 @@
         <input formControlName="userPassword" type="password" matInput>
       </mat-form-field>
     </div>
+
+    <div>
+      <mat-form-field class="full-width">
+        <mat-label>Confirm Password</mat-label>
+        <input formControlName="confirmPassword" type="password" matInput>
+      </mat-form-field>
+    </div>
+
     <div class="create-button">
       <button mat-raised-button color="primary" type="submit"
       [disabled]="createForm.invalid">Create an Account</button>

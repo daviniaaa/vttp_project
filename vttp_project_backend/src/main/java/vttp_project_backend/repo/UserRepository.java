@@ -52,10 +52,10 @@ public class UserRepository {
 
         if (u.getImageUrl() == null) {
             added = template.update(SQL_INSERT_USER_NO_IMAGE, 
-                u.getUserDataId(), u.getEmail(), u.getDisplayName(), u.getUserPassword());
+                u.getUserDataId(), u.getUsername(), u.getDisplayName(), u.getPassword());
         } else {
             added = template.update(SQL_INSERT_USER, 
-                u.getUserDataId(), u.getEmail(), u.getDisplayName(), u.getUserPassword(), u.getImageUrl());
+                u.getUserDataId(), u.getUsername(), u.getDisplayName(), u.getPassword(), u.getImageUrl());
         }
         
         return added > 0;

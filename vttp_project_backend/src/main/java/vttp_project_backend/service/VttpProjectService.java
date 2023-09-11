@@ -10,11 +10,11 @@ import org.springframework.stereotype.Service;
 import vttp_project_backend.exception.CreateAccountException;
 import vttp_project_backend.exception.ExistingEmailException;
 import vttp_project_backend.exception.NoExistingEmailException;
-// import vttp_project_backend.exception.PasswordsDoNotMatchException;
+import vttp_project_backend.exception.PasswordsDoNotMatchException;
 import vttp_project_backend.exception.WrongPasswordException;
 import vttp_project_backend.models.EventDetails;
 import vttp_project_backend.models.UserData;
-// import vttp_project_backend.models.UserRegistration;
+import vttp_project_backend.models.UserRegistration;
 import vttp_project_backend.repo.EventRepository;
 import vttp_project_backend.repo.UserRepository;
 
@@ -23,19 +23,19 @@ public class VttpProjectService {
     @Autowired private UserRepository userRepo;
     @Autowired private EventRepository eventRepo;
 
-    public String createUser(UserData u) {
+    public String createUser(UserRegistration ur) {
         // check if passwords match
-        // if (ur.getUserPassword() != ur.getPasswordConfirm()) {
-        //     throw new PasswordsDoNotMatchException();
-        // }
+        if (!ur.getUserPassword().equals(ur.getconfirmPassword())) {
+            throw new PasswordsDoNotMatchException();
+        }
 
         // check for existing email
-        Optional<UserData> existingEmail = userRepo.findUserByEmail(u.getEmail());
+        Optional<UserData> existingEmail = userRepo.findUserByEmail(ur.getEmail());
         if (existingEmail.isPresent()) {
             throw new ExistingEmailException();
         }
 
-        // UserData u = new UserData();
+        UserData u = new UserData();
 
         // ensures that no duplicate id
         String id = UUID.randomUUID().toString().substring(0, 8);
@@ -43,6 +43,9 @@ public class VttpProjectService {
         
         if (opt.isEmpty()) {
             u.setUserDataId(id);
+            u.setDisplayName(ur.getDisplayName());
+            u.setUsername(ur.getEmail());
+            u.setPassword(ur.getUserPassword());
 
             // in case server error
             boolean success = userRepo.createUser(u);
@@ -53,13 +56,13 @@ public class VttpProjectService {
             return id;
 
         } else {
-            return createUser(u);
+            return createUser(ur);
         }
     }
     
     public UserData login(UserData u) {
-        String email = u.getEmail();
-        String password = u.getUserPassword();
+        String email = u.getUsername();
+        String password = u.getPassword();
         if(userRepo.findUserByEmail(email).isEmpty()) {
             throw new NoExistingEmailException();
         }
