@@ -1,5 +1,6 @@
+import { HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { EventDetails } from 'src/app/models';
 import { EventService } from 'src/app/services/event.service';
 
@@ -10,7 +11,8 @@ import { EventService } from 'src/app/services/event.service';
 })
 export class EventComponent implements OnInit {
 
-  constructor(private activatedRoute: ActivatedRoute, private eventSvc: EventService) {}
+  constructor(private activatedRoute: ActivatedRoute, private eventSvc: EventService,
+    private router: Router) {}
   event: EventDetails = { eventDetailsId: "", userDataId: "", title: "", description: "",
     imageUrl: "", category: "" };
 
@@ -24,6 +26,8 @@ export class EventComponent implements OnInit {
 
   }
 
-
+  goToCreateBoothPage() {
+    this.router.navigate(['/createbooth', this.event.eventDetailsId]);
+  }
 
 }

@@ -18,9 +18,9 @@ export class UserService {
   }
 
   login(u: UserData) {
-    const headers: HttpHeaders = new HttpHeaders({Authorization: 'Basic '
-    + window.btoa(u.email + ':' + u.userPassword)})
-    return firstValueFrom(this.httpClient.post('/api/login', { headers }));//, { responseType: 'text' }));
+    // const headers: HttpHeaders = new HttpHeaders({Authorization: 'Basic '
+    // + window.btoa(u.email + ':' + u.userPassword)})
+    return firstValueFrom(this.httpClient.post('/api/login', u));//;, { headers }));//, { responseType: 'text' }));
   }
 
   getProfile(id: string) {

@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Params, Router } from '@angular/router';
 import { UserData } from 'src/app/models';
+import { TokenService } from 'src/app/services/token.service';
 import { UserService } from 'src/app/services/user.service';
 
 @Component({
@@ -15,7 +16,7 @@ export class NavbarComponent implements OnInit {
   searchForm!: FormGroup;
 
   constructor(private fb: FormBuilder, private router: Router, private userSvc: UserService,
-    private snackBar: MatSnackBar) {
+    private snackBar: MatSnackBar, private tokenSvc: TokenService) {
   }
 
   ngOnInit() {
@@ -56,12 +57,15 @@ export class NavbarComponent implements OnInit {
   goToSettings() {
     if (this.userSvc.currentUser.userDataId != undefined) {
       const userId: string = this.userSvc.currentUser.userDataId;
-      this.router.navigate(['/profile', userId, 'settings']);
+      this.router.navigate(['/settings']);
     }
   }
 
   signOut() {
     this.userSvc.currentUser = { email: "", userPassword: "" };
+
+    this.tokenSvc.setAuthToken(null);
+
     this.router.navigate(['/']);
     this.snackBar.open("Sign out successful", "DISMISS");
   }

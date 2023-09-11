@@ -15,10 +15,10 @@ const routes: Routes = [
   {path: "login", component: LoginComponent},
   {path: "createaccount", component: CreateaccountComponent},
   {path: "events/:eventId", component: EventComponent},
-  {path: "createbooth", component: CreateboothComponent},
+  {path: "createbooth/:eventId", component: CreateboothComponent},
   {path: "search", component: SearchComponent},
   {path: "profile/:profileId", component: ProfileComponent},
-  {path: "profile/:profileId/settings", component: SettingsComponent},
+  {path: "settings", component: SettingsComponent},
   {path: "**", component: NotfoundComponent}
 ];
 

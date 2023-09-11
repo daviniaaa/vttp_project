@@ -1,0 +1,381 @@
+{
+    "status": {
+      "code": 200,
+      "name": "OK",
+      "message": "Events retrieved successfully."
+    },
+    "data": [
+      {
+        "uuid": "004de86cecd39314ce985210a19d91aaf1b",
+        "name": "Gardens Rhapsody",
+        "type": "Attractions",
+        "tags": [
+          "Nature",
+          "Entertainment",
+          "Night",
+          "Lights"
+        ],
+        "description": "Come and be dazzled by the magnificent sight of our Supertrees and let the music and lights entertain you at night!",
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "location": {
+          "latitude": 1.282097,
+          "longitude": 103.864078
+        },
+        "officialWebsite": "",
+        "officialEmail": "",
+        "body": "Daily at 7.45pm and 8.45pm. Each show lasts 15 minutes.Garden Rhapsody is a signature light and sound show of the Gardens by the Bay, and its overall creative vision is led by award-winning Lighting Designer Adrian Tan, and one of Singapore's most sought-after music composers and arrangers, Bang Wenfu, since 2015.Garden Rhapsody is a signature light and sound show of the Gardens by the Bay, and its overall creative vision is led by award-winning Lighting Designer Adrian Tan, and one of Singapore's most sought-after music composers and arrangers, Bang Wenfu, since 2015.\nCome and enjoy the Marina Bay experience with us!",
+        "dataset": "Events",
+        "thumbnails": [
+          {
+            "uuid": "10114e06de048db48839f9b326389ff2331",
+            "url": "",
+            "libraryUuid": "10433feb5bc37c34efe915121d159ef73e9",
+            "primaryFileMediumUuid": "10114e06de048db48839f9b326389ff2331"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1016c248d5371c24b93bb6b38fdf429a1b9",
+            "url": "",
+            "libraryUuid": "10433feb5bc37c34efe915121d159ef73e9",
+            "primaryFileMediumUuid": "10114e06de048db48839f9b326389ff2331"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "staYear": "",
+        "startDate": "2023-01-01T00:00:00+08:00",
+        "endDate": "2023-12-31T00:00:00+08:00",
+        "eventOrganizer": "Gardens by the Bay",
+        "source": "GARDENS BY THE BAY",
+        "metadata": {
+          "updatedDate": "2023-09-04T16:15:56+08:00",
+          "createdDate": "2023-02-21T11:42:50+08:00"
+        },
+        "address": {
+          "block": "18",
+          "streetName": "Marina Gardens Drive",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "Gardens by the Bay (Supertree Grove)",
+          "postalCode": "018953"
+        },
+        "nearestMrtStation": "Bayfront, Gardens by the Bay",
+        "pricing": "",
+        "ticketed": "N",
+        "rating": 0,
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/004de86cecd39314ce985210a19d91aaf1b",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/004de86cecd39314ce985210a19d91aaf1b",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ],
+        "categoryDescription": "Events",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "companyDisplayName": "GARDENS BY THE BAY",
+        "eventDetailList": [
+          {
+            "uuid": "0159fbdb892d89b4604aac3bf55e0c16cc1",
+            "parentUuid": "004de86cecd39314ce985210a19d91aaf1b",
+            "name": "Gardens Rhapsody",
+            "location": {
+              "latitude": 1.282097,
+              "longitude": 103.864078
+            },
+            "address": {
+              "block": "18",
+              "streetName": "Marina Gardens Drive",
+              "floorNumber": "",
+              "unitNumber": "",
+              "buildingName": "Gardens by the Bay (Supertree Grove)",
+              "postalCode": "018953"
+            },
+            "timePeriod": [
+              {
+                "startDate": "2023-01-01T00:00:00+08:00",
+                "endDate": "2023-12-31T00:00:00+08:00",
+                "startTime": "1945",
+                "endTime": "2100",
+                "label": ""
+              }
+            ],
+            "nearestMrtStation": "Bayfront, Gardens by the Bay",
+            "pricing": "",
+            "ticketed": "N",
+            "metadata": {
+              "updatedDate": "2023-09-04T08:15:55+08:00",
+              "createdDate": "2023-02-21T03:42:51+08:00"
+            },
+            "formattedTimePeriod": {
+              "2023-01-01 - 2023-12-31": [
+                "1945 - 2100"
+              ]
+            }
+          }
+        ],
+        "group": ""
+      },
+      {
+        "uuid": "00481e2569406eb4e859b939bdff2cb885f",
+        "name": "Free Performances at Esplanade Outdoor Theatre",
+        "type": "Arts",
+        "tags": [
+          "Music",
+          "Dance",
+          "Performances",
+          "Theatres",
+          "Arts"
+        ],
+        "description": "Take in a free performance every weekend and public holiday at the Esplanade Outdoor Theatre.",
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "location": {
+          "latitude": 1.289857,
+          "longitude": 103.8552799
+        },
+        "officialWebsite": "",
+        "officialEmail": "",
+        "body": "Fronting the 300m long waterfront along Marina Bay, the outdoor theatre hosts a diverse range of performances from music to dance, theatre and even circus arts. These events can be enjoyed under the starlit sky, against the backdrop of the city skyline.Come and enjoy the Marina Bay experience with us!",
+        "dataset": "Events",
+        "thumbnails": [
+          {
+            "uuid": "10102200e585b0a425f801704399f4320b0",
+            "url": "",
+            "libraryUuid": "104f64b10f403da432ba814a13844184c71",
+            "primaryFileMediumUuid": "10102200e585b0a425f801704399f4320b0"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101b5abdceedbef4363b87a07c568c0b065",
+            "url": "",
+            "libraryUuid": "104f64b10f403da432ba814a13844184c71",
+            "primaryFileMediumUuid": "10102200e585b0a425f801704399f4320b0"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "staYear": "",
+        "startDate": "2023-01-07T00:00:00+08:00",
+        "endDate": "2023-12-31T00:00:00+08:00",
+        "eventOrganizer": "The Esplanade Co Ltd",
+        "source": "THE ESPLANADE CO LTD",
+        "metadata": {
+          "updatedDate": "2023-02-08T10:05:27+08:00",
+          "createdDate": "2023-02-08T10:05:27+08:00"
+        },
+        "address": {
+          "block": "",
+          "streetName": "1 Esplanade Drive",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "Esplanade Outdoor Theatre",
+          "postalCode": "038981"
+        },
+        "nearestMrtStation": "",
+        "pricing": "",
+        "ticketed": "N",
+        "rating": 0,
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/00481e2569406eb4e859b939bdff2cb885f",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/00481e2569406eb4e859b939bdff2cb885f",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ],
+        "categoryDescription": "Events",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "companyDisplayName": "THE ESPLANADE CO LTD",
+        "eventDetailList": [
+          {
+            "uuid": "0151b057589d64b4fe6b2c50d6a695e1dc1",
+            "parentUuid": "00481e2569406eb4e859b939bdff2cb885f",
+            "name": "Free Performances at Esplanade Outdoor Theatre",
+            "location": {
+              "latitude": 1.289857,
+              "longitude": 103.8552799
+            },
+            "address": {
+              "block": "",
+              "streetName": "1 Esplanade Drive",
+              "floorNumber": "",
+              "unitNumber": "",
+              "buildingName": "Esplanade Outdoor Theatre",
+              "postalCode": "038981"
+            },
+            "timePeriod": [
+              {
+                "startDate": "2023-01-07T00:00:00+08:00",
+                "endDate": "2023-12-31T00:00:00+08:00",
+                "startTime": "1900",
+                "endTime": "2030",
+                "label": ""
+              }
+            ],
+            "nearestMrtStation": "",
+            "pricing": "",
+            "ticketed": "N",
+            "metadata": {
+              "updatedDate": "2023-02-08T02:05:27+08:00",
+              "createdDate": "2023-02-08T02:05:27+08:00"
+            },
+            "formattedTimePeriod": {
+              "2023-01-07 - 2023-12-31": [
+                "1900 - 2030"
+              ]
+            }
+          }
+        ],
+        "group": ""
+      },
+      {
+        "uuid": "004a0a0433b50524056baaad6bc546dc250",
+        "name": "Free Performances at Esplanade Concourse",
+        "type": "Arts",
+        "tags": [
+          "Music",
+          "Concerts",
+          "Dance",
+          "Performances",
+          "Theatres",
+          "Arts"
+        ],
+        "description": "Take in a free performance every evening at the Esplanade Concourse.",
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "location": {
+          "latitude": 1.289857,
+          "longitude": 103.8552799
+        },
+        "officialWebsite": "",
+        "officialEmail": "",
+        "body": "Explore the arts & culture at Esplanade through ticketed and free events all year round. Find new music to listen to or encounter a dance you've never seen before at Esplanade.Come and enjoy the Marina Bay experience with us!",
+        "dataset": "Events",
+        "thumbnails": [
+          {
+            "uuid": "1012cff4821321f46a4b6faa6ca6042c1cb",
+            "url": "",
+            "libraryUuid": "104d1648aef11084642ae12eedde9e06d38",
+            "primaryFileMediumUuid": "1012cff4821321f46a4b6faa6ca6042c1cb"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101f24c7fdb81964ea8a5afcc67fbe7504c",
+            "url": "",
+            "libraryUuid": "104d1648aef11084642ae12eedde9e06d38",
+            "primaryFileMediumUuid": "1012cff4821321f46a4b6faa6ca6042c1cb"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "staYear": "",
+        "startDate": "2023-01-01T00:00:00+08:00",
+        "endDate": "2023-12-31T00:00:00+08:00",
+        "eventOrganizer": "The Esplanade Co Ltd",
+        "source": "THE ESPLANADE CO LTD",
+        "metadata": {
+          "updatedDate": "2023-02-08T10:01:39+08:00",
+          "createdDate": "2023-02-08T10:01:39+08:00"
+        },
+        "address": {
+          "block": "",
+          "streetName": "1 Esplanade Drive",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "038981"
+        },
+        "nearestMrtStation": "",
+        "pricing": "",
+        "ticketed": "N",
+        "rating": 0,
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/004a0a0433b50524056baaad6bc546dc250",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/events/v2/004a0a0433b50524056baaad6bc546dc250",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ],
+        "categoryDescription": "Events",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "companyDisplayName": "THE ESPLANADE CO LTD",
+        "eventDetailList": [
+          {
+            "uuid": "01553b27044707d4835b9e81205e48523f0",
+            "parentUuid": "004a0a0433b50524056baaad6bc546dc250",
+            "name": "Free Performances at Esplanade Concourse",
+            "location": {
+              "latitude": 1.289857,
+              "longitude": 103.8552799
+            },
+            "address": {
+              "block": "",
+              "streetName": "1 Esplanade Drive",
+              "floorNumber": "",
+              "unitNumber": "",
+              "buildingName": "",
+              "postalCode": "038981"
+            },
+            "timePeriod": [
+              {
+                "startDate": "2023-01-01T00:00:00+08:00",
+                "endDate": "2023-12-31T00:00:00+08:00",
+                "startTime": "1900",
+                "endTime": "2030",
+                "label": ""
+              }
+            ],
+            "nearestMrtStation": "",
+            "pricing": "",
+            "ticketed": "N",
+            "metadata": {
+              "updatedDate": "2023-02-08T02:01:40+08:00",
+              "createdDate": "2023-02-08T02:01:40+08:00"
+            },
+            "formattedTimePeriod": {
+              "2023-01-01 - 2023-12-31": [
+                "1900 - 2030"
+              ]
+            }
+          }
+        ],
+        "group": ""
+      }
+    ],
+    "paginationLinks": {
+      "self": "https://api.stb.gov.sg/content/events/v2/search?offset=0&limit=20&searchType=keyword&searchValues=music",
+      "first": "https://api.stb.gov.sg/content/events/v2/search?offset=0&limit=20&searchType=keyword&searchValues=music"
+    },
+    "totalRecords": 3,
+    "retrievedRecords": 3
+  }

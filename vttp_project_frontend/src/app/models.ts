@@ -5,6 +5,7 @@ export interface UserData {
   userPassword: string;
   imageUrl?: string;
   confirmPassword?: string;
+  token?: string;
 }
 
 export interface EventDetails {

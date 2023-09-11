@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 
@@ -16,6 +17,7 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 import jakarta.annotation.PostConstruct;
 import vttp_project_backend.records.UserDTO;
 
+@Configuration
 public class UserAuthentication {
     @Value("${app.jwt.secret}")
     private String secretKey;
@@ -30,7 +32,7 @@ public class UserAuthentication {
         Date validity = new Date(now.getTime() + 3_600_000);
 
         return JWT.create()
-                    .withIssuer(dto.getUsername())
+                    .withIssuer(dto.getEmail())
                     .withIssuedAt(now)
                     .withExpiresAt(validity)
                     .sign(Algorithm.HMAC256(secretKey));
@@ -42,7 +44,7 @@ public class UserAuthentication {
         DecodedJWT decoded = verifier.verify(token);
 
         UserDTO user = new UserDTO();
-        user.setUsername(decoded.getIssuer());
+        user.setEmail(decoded.getIssuer());
         
         return new UsernamePasswordAuthenticationToken(user, null, Collections.emptyList());
     }

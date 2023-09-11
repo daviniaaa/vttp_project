@@ -1,27 +1,55 @@
 package vttp_project_backend.records;
 
 public class UserDTO {
-    private String id;
-    private String username;
+    private String userDataId;
+    private String email;
+    private String displayName;
+    private String imageUrl;
     private String token;
+
+    public String getDisplayName() {
+        return displayName;
+    }
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
+    }
+    public String getImageUrl() {
+        return imageUrl;
+    }
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
     public UserDTO() {
     }
-    public UserDTO(String id, String username, String token) {
-        this.id = id;
-        this.username = username;
+    public UserDTO(String userDataId, String email, String token) {
+        this.userDataId = userDataId;
+        this.email = email;
         this.token = token;
     }
-    public String getId() {
-        return id;
+    public UserDTO(String userDataId, String email, String displayName, String token) {
+        this.userDataId = userDataId;
+        this.email = email;
+        this.displayName = displayName;
+        this.token = token;
     }
-    public void setId(String id) {
-        this.id = id;
+    public UserDTO(String userDataId, String email, String displayName, String imageUrl, String token) {
+        this.userDataId = userDataId;
+        this.email = email;
+        this.displayName = displayName;
+        this.imageUrl = imageUrl;
+        this.token = token;
     }
-    public String getUsername() {
-        return username;
+    public String getUserDataId() {
+        return userDataId;
     }
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserDataId(String userDataId) {
+        this.userDataId = userDataId;
+    }
+    public String getEmail() {
+        return email;
+    }
+    public void setEmail(String email) {
+        this.email = email;
     }
     public String getToken() {
         return token;
