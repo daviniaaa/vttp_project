@@ -1,10 +1,10 @@
 package vttp_project_backend.service;
 
-import java.util.List;
-import java.util.Optional;
+// import java.util.List;
+// import java.util.Optional;
 // import java.util.UUID;
 
-import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 // import vttp_project_backend.exception.CreateAccountException;
@@ -12,15 +12,15 @@ import org.springframework.stereotype.Service;
 // import vttp_project_backend.exception.NoExistingEmailException;
 // import vttp_project_backend.exception.PasswordsDoNotMatchException;
 // import vttp_project_backend.exception.WrongPasswordException;
-import vttp_project_backend.models.EventDetails;
+// import vttp_project_backend.models.EventDetails;
 // import vttp_project_backend.models.UserData;
-import vttp_project_backend.repo.EventRepository;
+// import vttp_project_backend.repo.EventRepository;
 // import vttp_project_backend.repo.UserRepository;
 
 @Service
 public class VttpProjectService {
     // @Autowired private UserRepository userRepo;
-    @Autowired private EventRepository eventRepo;
+    // @Autowired private EventRepository eventRepo;
 
     // public String createUser(UserRegistration ur) {
     //     // check if passwords match
@@ -74,22 +74,22 @@ public class VttpProjectService {
     //     return opt.get();
     // }
 
-    public List<EventDetails> getEvents() {
-        return eventRepo.getEvents();
-    }
+    // public List<EventDetails> getEvents() {
+    //     return eventRepo.getEvents();
+    // }
 
-    public List<EventDetails> search(String[] searchTerms) {
-        return eventRepo.search(searchTerms);
-    }
+    // public List<EventDetails> search(String[] searchTerms) {
+    //     return eventRepo.search(searchTerms);
+    // }
 
-    public EventDetails getEventById(String id) {
-        Optional<EventDetails> opt = eventRepo.getEventById(id);
+    // public EventDetails getEventById(String id) {
+    //     Optional<EventDetails> opt = eventRepo.getEventById(id);
 
-        if (opt.isEmpty()) {
-            return null;
-        }
+    //     if (opt.isEmpty()) {
+    //         return null;
+    //     }
 
-        return opt.get();
-    }
+    //     return opt.get();
+    // }
 
 }

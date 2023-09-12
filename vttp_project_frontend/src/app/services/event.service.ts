@@ -9,8 +9,11 @@ export class EventService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getEvents() {
-    return firstValueFrom(this.httpClient.get('/api/home'));//, { responseType: 'text' }));
+  getExternalEvents() {
+    return firstValueFrom(this.httpClient.get('/api/external'));//, { responseType: 'text' }));
+  }
+  getExternalEventByUuid(uuid: string) {
+    return firstValueFrom(this.httpClient.get(`/api/external/${uuid}`));//, { responseType: 'text' }));
   }
 
   getEvent(id: string) {
@@ -21,5 +24,9 @@ export class EventService {
   search(keyword: string) {
     const params = new HttpParams().set("keyword", keyword);
     return firstValueFrom(this.httpClient.get('/api/search', { params }));
+  }
+
+  getImage(uuid: string) {
+    return firstValueFrom(this.httpClient.get(`/api/external/image/${uuid}`, { responseType: 'blob' }));
   }
 }

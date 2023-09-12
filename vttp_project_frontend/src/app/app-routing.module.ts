@@ -9,12 +9,14 @@ import { EventComponent } from './components/event/event.component';
 import { CreateboothComponent } from './components/createbooth/createbooth.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SettingsComponent } from './components/profile/settings/settings.component';
+import { ExternalComponent } from './components/external/external.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: "login", component: LoginComponent},
   {path: "createaccount", component: CreateaccountComponent},
   {path: "events/:eventId", component: EventComponent},
+  {path: "external/:eventId", component: ExternalComponent},
   {path: "createbooth/:eventId", component: CreateboothComponent},
   {path: "search", component: SearchComponent},
   {path: "profile/:profileId", component: ProfileComponent},
@@ -23,7 +25,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

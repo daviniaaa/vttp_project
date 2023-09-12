@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
   <button mat-flat-button extended color="primary" routerLink="/">
       <mat-icon >home</mat-icon>
-      vttp-project
+      <span *ngIf="!mobile">vttp-project</span>
   </button>
   <span class="spacer-between-home-and-search"></span>
 
@@ -9,24 +9,24 @@
     <span class="navbar-search" style="display: flex; justify-content: center; align-items: center;">
       <mat-form-field class="search-form-field">
           <input matInput class="search-input" formControlName="searchInput"
-          placeholder="Search for Events by name, place, etc.">
+          placeholder="Search by name, place, etc.">
       </mat-form-field>
-      <button mat-mini-fab class="search-icon" type="submit" color="primary">
+      <button mat-mini-fab class="search-icon" type="submit" color="primary" *ngIf="!mobile">
         <mat-icon>search</mat-icon>
       </button>
     </span>
   </form>
 
-  <span class="example-spacer"></span>
+  <span *ngIf="!mobile" class="example-spacer"></span>
   <button *ngIf="currentUsername=='Login'" mat-flat-button extended color="primary" routerLink="/login">
       <mat-icon>person</mat-icon>
       <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
-      <span>{{ currentUsername }}</span>
+      <span *ngIf="!mobile">{{ currentUsername }}</span>
   </button>
   <button *ngIf="currentUsername!='Login'" mat-flat-button extended color="primary" [mat-menu-trigger-for]="menu">
     <mat-icon>person</mat-icon>
     <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
-    <span>{{ currentUsername }}</span>
+    <span *ngIf="!mobile">{{ currentUsername }}</span>
 </button>
 </mat-toolbar>
 

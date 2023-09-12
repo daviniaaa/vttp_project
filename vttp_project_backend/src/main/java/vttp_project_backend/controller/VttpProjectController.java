@@ -12,12 +12,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import vttp_project_backend.models.EventDetails;
+import vttp_project_backend.models.ExternalApi.DataObject;
+import vttp_project_backend.service.EventService;
 import vttp_project_backend.service.VttpProjectService;
 
 @Controller
 @RequestMapping("/api")
 public class VttpProjectController {
     @Autowired private VttpProjectService service;
+    @Autowired private EventService eventService;
 
     // @PostMapping(path = "/create", consumes = MediaType.APPLICATION_JSON_VALUE)
     // public ResponseEntity<String> createAccount(@RequestBody @Valid UserRegistration u) {
@@ -56,26 +59,26 @@ public class VttpProjectController {
     // }
 
     @GetMapping(path = "/home", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<List<EventDetails>> home() {
+    public ResponseEntity<List<DataObject>> home() {
         System.out.println("getmapping called! home()");
-        List<EventDetails> events =  service.getEvents();
+        List<DataObject> events =  eventService.getEvents();
         return ResponseEntity.ok(events);
     }
 
-    @GetMapping(path = "/event/{eventId}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<EventDetails> getEvent(@PathVariable String eventId) {
-        System.out.println("getmpping called! getEvent()");
-        EventDetails e = service.getEventById(eventId);
+    // @GetMapping(path = "/event/{eventId}", produces = MediaType.APPLICATION_JSON_VALUE)
+    // public ResponseEntity<EventDetails> getEvent(@PathVariable String eventId) {
+    //     System.out.println("getmpping called! getEvent()");
+    //     EventDetails e = service.getEventById(eventId);
 
-        return ResponseEntity.ok(e);
-    }
+    //     return ResponseEntity.ok(e);
+    // }
 
-    @GetMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<List<EventDetails>> search(@RequestParam String keyword) {
-        System.out.println("getmapping called! search()");
+    // @GetMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
+    // public ResponseEntity<List<EventDetails>> search(@RequestParam String keyword) {
+    //     System.out.println("getmapping called! search()");
 
-        String[] keywords = keyword.split("%20");
-        List<EventDetails> events =  service.search(keywords);
-        return ResponseEntity.ok(events);
-    }
+    //     String[] keywords = keyword.split("%20");
+    //     List<EventDetails> events =  service.search(keywords);
+    //     return ResponseEntity.ok(events);
+    // }
 }

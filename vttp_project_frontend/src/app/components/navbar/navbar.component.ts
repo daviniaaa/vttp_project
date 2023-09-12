@@ -14,6 +14,7 @@ import { UserService } from 'src/app/services/user.service';
 export class NavbarComponent implements OnInit {
 
   searchForm!: FormGroup;
+  mobile: boolean = false;
 
   constructor(private fb: FormBuilder, private router: Router, private userSvc: UserService,
     private snackBar: MatSnackBar, private tokenSvc: TokenService) {
@@ -23,6 +24,13 @@ export class NavbarComponent implements OnInit {
     this.searchForm = this.fb.group({
       searchInput: this.fb.control<string>('', [ Validators.required ])
     })
+
+    this.mobile = window.innerWidth < 600;
+
+    var m = document.querySelector('mat-form-field.mat-mdc-text-field-wrapper');
+    if (!this.mobile) {
+      m?.setAttribute("width", "140%");
+    }
   }
 
   search() {
