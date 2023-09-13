@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { StripeModule } from 'stripe-angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +24,8 @@ import { AccountComponent } from './components/profile/settings/account/account.
 import { AdvancedComponent } from './components/profile/settings/advanced/advanced.component';
 import { NotificationsComponent } from './components/profile/settings/notifications/notifications.component';
 import { ExternalComponent } from './components/external/external.component';
+import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
+import { DonateComponent } from './components/stripe/donate/donate.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,9 @@ import { ExternalComponent } from './components/external/external.component';
     AccountComponent,
     AdvancedComponent,
     NotificationsComponent,
-    ExternalComponent
+    ExternalComponent,
+    CheckoutComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,8 @@ import { ExternalComponent } from './components/external/external.component';
     BrowserAnimationsModule,
     AppMaterialModule,
     FormsModule, ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    StripeModule //.forRoot("...YOUR-STRIPE-KEY-HERE...") support lazy loading via loadChildren()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -39,6 +39,7 @@ export class LoginComponent implements OnInit {
 
         console.log("currentUser token >> " + this.userSvc.currentUser.token);
         this.tokenSvc.setAuthToken(this.userSvc.currentUser.token? this.userSvc.currentUser.token : null);
+        this.userSvc.setCurrentUser(this.userSvc.currentUser);
 
         this.router.navigate(['/']);
       })
