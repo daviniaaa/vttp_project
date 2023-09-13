@@ -22,6 +22,7 @@ import { SettingsComponent } from './components/profile/settings/settings.compon
 import { AccountComponent } from './components/profile/settings/account/account.component';
 import { AdvancedComponent } from './components/profile/settings/advanced/advanced.component';
 import { NotificationsComponent } from './components/profile/settings/notifications/notifications.component';
+import { ExternalComponent } from './components/external/external.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { NotificationsComponent } from './components/profile/settings/notificati
     SettingsComponent,
     AccountComponent,
     AdvancedComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    ExternalComponent
   ],
   imports: [
     BrowserModule,

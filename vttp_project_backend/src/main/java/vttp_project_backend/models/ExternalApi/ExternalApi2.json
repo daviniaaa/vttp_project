@@ -1,0 +1,2882 @@
+{
+    "status": {
+      "code": 200,
+      "name": "OK",
+      "message": "Attractions retrieved successfully."
+    },
+    "data": [
+      {
+        "uuid": "002b38d4bfc29ed42379a90136dbb05d1f8",
+        "name": "Absolute Cycle (The Centrepoint)",
+        "type": "FITNESS_HOLISTIC_WELLNESS",
+        "tags": [
+          "Activities",
+          "Adventure",
+          "Action Seekers",
+          "Wellness",
+          "Socialisers",
+          "Classes",
+          "Sports"
+        ],
+        "description": "Absolute Cycle is Asia’s leading and largest Rhythm Cycling studio.",
+        "body": "Launched\nin 2016, the studio conducts 45-minute\nclasses of intense cardio with dynamic\nand effective movements and amazing\nmusic that focus the upper body, core,\nand lower body – all on a bike.\nEach session is designed to push one to\ngreater heights. Absolute Cycle is part of Absolute\nYou, one of the largest boutique fitness\nbrands. The studio offers a 3-class package for beginners\nsuch as Beginner 45, Rhythm Cycling\nand Pilates Reformer. Signature class, Absolute 45 helps to\nbuild confidence and caters to all levels\nof fitness. There are more than 60 Rhythm Cycling\ninstructors who are trained according to\nAbsolute Training Programme. ",
+        "rating": 4.7,
+        "location": {
+          "latitude": 1.2920715,
+          "longitude": 103.859851
+        },
+        "address": {
+          "block": "",
+          "streetName": "176 Orchard Road",
+          "floorNumber": "04",
+          "unitNumber": "101",
+          "buildingName": "The Centrepoint",
+          "postalCode": "238843"
+        },
+        "thumbnails": [
+          {
+            "uuid": "1010317c1863fd044f9bbb2631806c39670",
+            "url": "",
+            "libraryUuid": "10415e3c8ba4ed34df2a3339666ff3cf51f",
+            "primaryFileMediumUuid": "1010317c1863fd044f9bbb2631806c39670"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1019aaf29eaf436420893e0aa9e5f610433",
+            "url": "",
+            "libraryUuid": "104b903336ad58e4daa8172f87176f30579",
+            "primaryFileMediumUuid": "101bdd870a55d63470fb2d00972d40c7b24"
+          },
+          {
+            "uuid": "10173649ba5a769418db806241bc3056083",
+            "url": "",
+            "libraryUuid": "10415e3c8ba4ed34df2a3339666ff3cf51f",
+            "primaryFileMediumUuid": "1010317c1863fd044f9bbb2631806c39670"
+          },
+          {
+            "uuid": "101b697b4b11dee4016ae084f46a5240a35",
+            "url": "",
+            "libraryUuid": "104de5819fa19e840d09584de1ee2a40a9e",
+            "primaryFileMediumUuid": "10112ccae5a257a4a22aa15476951f9d8c5"
+          },
+          {
+            "uuid": "101e1f67b42743b4167bbfb6cfa90927401",
+            "url": "",
+            "libraryUuid": "1043db20494bfbb4b2eb72c53d957925a62",
+            "primaryFileMediumUuid": "101a44fffa98df641eca0e29d380cba3ce7"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2023-07-14T11:02:37+08:00",
+          "createdDate": "2021-09-03T15:02:16+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "monday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "21:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "tuesday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "21:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 3,
+            "day": "wednesday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "21:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 4,
+            "day": "thursday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "21:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 5,
+            "day": "friday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "20:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 6,
+            "day": "saturday",
+            "daily": false,
+            "openTime": "08:30",
+            "closeTime": "16:30",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 7,
+            "day": "sunday",
+            "daily": false,
+            "openTime": "07:30",
+            "closeTime": "16:30",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6531292894",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Somerset",
+        "officialWebsite": "www.absolutecyclesingapore.com",
+        "officialEmail": "support@absoluteyousingapore.com",
+        "staYear": "",
+        "admissionInfo": "Please refer to Absolute Cycle website for the schedule of individual classes",
+        "ticketed": "Y",
+        "group": "Wellness",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002b38d4bfc29ed42379a90136dbb05d1f8",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002b38d4bfc29ed42379a90136dbb05d1f8",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002c106bdb317f3468fbaebc013b826378b",
+        "name": "ArtScience Museum™",
+        "type": "Arts",
+        "tags": [
+          "Architecture",
+          "Entertainment",
+          "Museums",
+          "Families",
+          "Marina Bay",
+          "Attractions"
+        ],
+        "description": "Art, science, culture and technology intersect at the world’s first ArtScience Museum™, a lotus-shaped building located within the integrated resort of Marina Bay Sands®. Major international touring exhibitions have passed through, thanks to collaborations with the likes of the Natural History Museum of London, Japanese art collective teamLab, and jewellery brand Van Cleef & Arpels.",
+        "body": "Major international touring exhibitions have passed through, thanks to collaborations with the likes of the Natural History Museum of London, Japanese art collective teamLab, and jewellery brand Van Cleef & Arpels.",
+        "rating": 4.5,
+        "location": {
+          "latitude": 1.2862738,
+          "longitude": 103.8592663
+        },
+        "address": {
+          "block": "",
+          "streetName": "6 Bayfront Ave",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "018974"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101b1138d5b0efb4023a462f3f3852cefe1",
+            "url": "",
+            "libraryUuid": "10425cbeda799134e0db7d164d4a6b4e382",
+            "primaryFileMediumUuid": "101b1138d5b0efb4023a462f3f3852cefe1"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1012d471a70e1c5401ba4117520cc53dbec",
+            "url": "",
+            "libraryUuid": "10425cbeda799134e0db7d164d4a6b4e382",
+            "primaryFileMediumUuid": "101b1138d5b0efb4023a462f3f3852cefe1"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "MARINA BAY SANDS PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2023-05-08T21:41:14+08:00",
+          "createdDate": "2018-04-12T14:08:02+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "MARINA BAY SANDS PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "Gift Shop",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "+6566888888",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Bayfront",
+        "officialWebsite": "www.marinabaysands.com/museum.html",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "Y",
+        "group": "SGClean",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002c106bdb317f3468fbaebc013b826378b",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002c106bdb317f3468fbaebc013b826378b",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "00239f0d56be1f14f5f86b54bbb4508572c",
+        "name": "A Minion's Perspective Experience",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Activities",
+          "Family-friendly",
+          "Kids-friendly",
+          "Film",
+          "Sentosa",
+          "Young Adults",
+          "Experiences",
+          "Exhibitions",
+          "Families",
+          "Attractions"
+        ],
+        "description": "Based on the world’s most successful animated film, this international touring exhibition offers fans of all ages an opportunity to immerse themselves in the world of these record-setting films!",
+        "body": "A Minion’s Perspective is a pop-up attraction based on the widely popular Despicable Me and Minions movie franchise created by Beast Kingdom under license from Universal Pictures and Illumination. The attraction has toured a few cities in North Asia since late 2018 and will be making its highly anticipated SEA debut in Singapore in 2022! Based on the world’s most successful animated film franchise, Illumination’s Despicable Me and Minions franchise, this international touring exhibition offers fans of all ages an opportunity to immerse themselves into the world of these record-setting films.\n\nFollowing the successful tour in Seoul, Shenzhen, Shanghai, Jeju Island, Taipei, this 1,400 square meter exhibition will land in Singapore featuring eight thematic rooms including Gru’s lab, The Girl’s Room and Minions Zone. The characters in the franchise are a joyful retort to the real world’s conflicts, and a reminder that the best parts of life, no matter your age, usually involve a little mischief.\n\nThe retail store at A Minion’s Perspective will feature more than 500 exclusive Despicable Me and Minions merchandise items that are perfect for Minion fans of all ages!",
+        "rating": 0,
+        "location": {
+          "latitude": 1.256752,
+          "longitude": 103.820331
+        },
+        "address": {
+          "block": "8",
+          "streetName": "Sentosa Gateway",
+          "floorNumber": "01",
+          "unitNumber": "38/39",
+          "buildingName": "Resorts World Sentosa",
+          "postalCode": "098269"
+        },
+        "thumbnails": [
+          {
+            "uuid": "10185409207224b480a947530d78eeb2e50",
+            "url": "",
+            "libraryUuid": "10406e041439a234ad9ac77570961576ef8",
+            "primaryFileMediumUuid": "10185409207224b480a947530d78eeb2e50"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "10154358453836a414f98811c8498393771",
+            "url": "",
+            "libraryUuid": "10406e041439a234ad9ac77570961576ef8",
+            "primaryFileMediumUuid": "10185409207224b480a947530d78eeb2e50"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "CK STAR ENTERTAINMENT PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2023-01-10T11:15:13+08:00",
+          "createdDate": "2023-01-10T11:15:13+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [],
+        "pricing": {
+          "others": "from $22"
+        },
+        "companyDisplayName": "CK STAR ENTERTAINMENT PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": "Chinese New Year"
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "thursday",
+            "daily": false,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 3,
+            "day": "friday",
+            "daily": false,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 4,
+            "day": "saturday",
+            "daily": false,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 5,
+            "day": "sunday",
+            "daily": false,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6563280800",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Harbourfront",
+        "officialWebsite": "https://www.klook.com/en-SG/activity/74220-a-minions-perspective/",
+        "officialEmail": "enquiry-sg@ckstarentertainment.com",
+        "staYear": "",
+        "admissionInfo": "For more info and to purchase tickets, please go to https://www.klook.com/en-SG/activity/74220-a-minions-perspective/",
+        "ticketed": "Y",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": "Open throughout March School Holidays 11 - 19 March 2023"
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00239f0d56be1f14f5f86b54bbb4508572c",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00239f0d56be1f14f5f86b54bbb4508572c",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002dcb18f38929a493bbab23c873b8f89bb",
+        "name": "AJ Hackett",
+        "type": "Adventure",
+        "tags": [
+          "Explorers",
+          "Sentosa",
+          "Experiences",
+          "Socialisers"
+        ],
+        "description": "Take on the challenge and complete Bungy,",
+        "body": "Take on the challenge and complete our Bungy, Giant Swing & Skybridge Combo - bound to keep your adrenaline pumped and leave you wanting for more!",
+        "rating": 4.6,
+        "location": {
+          "latitude": 1.2551628,
+          "longitude": 103.813328
+        },
+        "address": {
+          "block": "",
+          "streetName": "",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "099011"
+        },
+        "thumbnails": [
+          {
+            "uuid": "10119e2c4ec33264fc496da204b701fbb6b",
+            "url": "",
+            "libraryUuid": "10497c18c1dcf2e4a98966e03954b39a7da",
+            "primaryFileMediumUuid": "10119e2c4ec33264fc496da204b701fbb6b"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101abf0336372814b659f1ac55dbc82f994",
+            "url": "",
+            "libraryUuid": "10497c18c1dcf2e4a98966e03954b39a7da",
+            "primaryFileMediumUuid": "10119e2c4ec33264fc496da204b701fbb6b"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "THE TRAVELLER DMC PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-11-08T10:08:54+08:00",
+          "createdDate": "2021-05-05T10:56:46+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Stella Lim",
+            "authorURL": "https://www.google.com/maps/contrib/113751206438545139648/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqyQop8hT6Rcf5JaaMvEQ5IgB0AwwVgJ4BseauCaaM=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "Easygoing staffs and nice food. ~28SGD for a fish burger with cheese slice and a can of coke with ice. A great place to hangout. *as the dining area near the counter have only a sunshade over I do feel a little uneasy while dining when there were people bungee jumping. *if that concern you! Other wise, it’s a good view!",
+            "time": "2022-01-01T06:21:41+08:00"
+          },
+          {
+            "authorName": "Michael Pasko",
+            "authorURL": "https://www.google.com/maps/contrib/103186799883216817010/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmkPcp0kmLChTmvLWVO3xSH4Lwgm7egeJtH0KGyR=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 3,
+            "text": "The bungee jumping and sky swing look pretty awesome, but don't go here for the food. We ate here mostly because we were looking to get out of the rain.\n\nThe \"family meal\" for $48 - whole pizza, fries, calamari, and 4 cokes - seems like a decent deal, but the pizza is tiny....more like a personal pizza rather than one to share. My wife also didn't like the calamari. She said it was cut too thick. The fries were good, but they were sadly the best part of the meal.",
+            "time": "2022-07-23T14:46:49+08:00"
+          },
+          {
+            "authorName": "Awkward Kami",
+            "authorURL": "https://www.google.com/maps/contrib/110272141897361171302/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrYsAss9zvRZaJ7ty-z4a1JG9I7ASkHI2RCBbk-8A=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Spent my sentosa fun pass tokens here. Even without the tokens, the food is reasonably priced and the portion is surprisingly huge. The food is served very quick yet the taste and quality is amazing. The staffs are also very friendly and helpful too.",
+            "time": "2021-12-17T09:33:14+08:00"
+          },
+          {
+            "authorName": "Hououin Kyouma",
+            "authorURL": "https://www.google.com/maps/contrib/104692836104548080175/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucq5BiSnZiw5JktYlLRj0haUiGix32R7dhhvx5x1=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "I tried the giant swing and it was one hell of an amazing experience~\nRemember to check the weight limit before you book it.\nFor single person, the minimum weight is around 60kg.\nFor maximum weight for maximum 3 people, is around 300kg, and per person max 150kg.\nI came late for my session, so I couldn't do the giant swing until the next available session came. It ends around 5pm so best to come early before you appointment.\n\nThe swing and the preparation lasts around 5-10 minutes so it'll be over before you know it. An unforgettable experience you'll have 😉 oh and u can't wear glasses so consider wearing contacts if u wanna see things clearly.",
+            "time": "2022-08-06T17:43:39+08:00"
+          },
+          {
+            "authorName": "Joel Yeo",
+            "authorURL": "https://www.google.com/maps/contrib/114486223342283571450/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpHS1DRId14VdkEFPcIj3sS75KkaXrQO7Jwwoh2XQ=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 2,
+            "text": "Customer service is really low. It may be a nice activity to go for but if the customer service can be better. It will sure be a better experience.",
+            "time": "2022-01-03T08:13:38+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "THE TRAVELLER DMC PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "11:00",
+            "closeTime": "18:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Harbour Front",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "Y",
+        "group": "SGClean",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002dcb18f38929a493bbab23c873b8f89bb",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002dcb18f38929a493bbab23c873b8f89bb",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0022cdcd1cce54f43b9a6afa95bb6462684",
+        "name": "Adventure Cove Waterpark™",
+        "type": "Adventure",
+        "tags": [
+          "Family-friendly",
+          "Adventure",
+          "Kids-friendly",
+          "Sentosa",
+          "Experiences"
+        ],
+        "description": "Southeast Asia’s first hydro-magnetic coaster isn’t our only claim to fame!",
+        "body": "From zooming down high-speed water slides to drifting lazily down a winding river; snorkeling with 20,000 marine fish to wading with friendly rays in the shallows. There’s a wave of fun waiting for the thrill-seeker and nature lover in you, here at Adventure Cove Waterpark. So get your goggles ready!",
+        "rating": 4.3,
+        "location": {
+          "latitude": 1.2587902,
+          "longitude": 103.8186627
+        },
+        "address": {
+          "block": "",
+          "streetName": "8 Sentosa Gateway",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "098269"
+        },
+        "thumbnails": [
+          {
+            "uuid": "10113464ed5edf348b491493659d584f811",
+            "url": "",
+            "libraryUuid": "104b0c57b4fff1c4dd4830fcc2de61ee1bc",
+            "primaryFileMediumUuid": "10113464ed5edf348b491493659d584f811"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101603fe449b363413683b59e97a576fe49",
+            "url": "",
+            "libraryUuid": "104cc4eafafd8c748cf83b7f9a2f204a301",
+            "primaryFileMediumUuid": "101fa419cbce0f04341ba666002cae5badd"
+          },
+          {
+            "uuid": "10118e2321fa4234164a55b19f71dd11976",
+            "url": "",
+            "libraryUuid": "1045f4edd1e7790456daa92bbee68a3c70b",
+            "primaryFileMediumUuid": "1018b980158125e43148bea53e7dae806a6"
+          },
+          {
+            "uuid": "101215a124210754baca7aeffefb5f6f80f",
+            "url": "",
+            "libraryUuid": "104b7e1bd69d24848da8a4b8a3ad096a7aa",
+            "primaryFileMediumUuid": "1015e530696bdb04df1aba2cb55b20027cd"
+          },
+          {
+            "uuid": "1019da732c131e7460a894437860b9f08c8",
+            "url": "",
+            "libraryUuid": "104b0c57b4fff1c4dd4830fcc2de61ee1bc",
+            "primaryFileMediumUuid": "10113464ed5edf348b491493659d584f811"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "THE TRAVELLER DMC PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-09-20T12:01:41+08:00",
+          "createdDate": "2021-09-20T12:01:41+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Brady Russell",
+            "authorURL": "https://www.google.com/maps/contrib/115188659545622977369/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucp4OpcbhxwO5rfmb8uSNBO5XyzGs53L8uJBb3RLcg=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 4,
+            "text": "Great water park.  I was a bit surprised by the limited amount of attractions (you could probably do all the rides in an hour on a quiet day) but they were all fun, the staff were great and the park was easy to navigate.  Amenities were absolutely fantastic, change rooms were spotless with plenty of showers that were well maintained.  Didn’t check out any of the food stalls but they seemed well priced with some options.  Glad I came!",
+            "time": "2022-08-23T02:34:33+08:00"
+          },
+          {
+            "authorName": "Vegas Lee",
+            "authorURL": "https://www.google.com/maps/contrib/109622502678248936915/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqFCaR2ZHH6vQFksofjgNv8M0KH1GfO547yj2Db=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "Adventure Cove is one of my favorite places in Singapore! Had a quick day trip with my partner and everything was great. My favorite attraction was Rainbow Reef!\n\nThe staffs were extremely nice and attentive. They let us finish the lap around the lazy river when it’s past their closing time.\n\nRecently, they made some changes to the express pass where they capped the number of times you can go on a ride as express. Definitely not as worth it as before!\n\nPrices for entry was reasonable. Food and refreshments are available but at theme park prices. Do have a hearty breakfast before coming as re-entry is not possible.\n\nLockers are available as well but it was rather pricey.\n\nLastly, Splashworks was closed (i think due to manpower issue)",
+            "time": "2022-08-09T16:20:02+08:00"
+          },
+          {
+            "authorName": "Denise K",
+            "authorURL": "https://www.google.com/maps/contrib/101070434904326442330/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlceFonIbPF7fDAHRGNrOs5CFqgLESq-p-HL_Dp=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "So great even now when they restrict number of people getting into the wave pool. Still worth going. Great to not wear mask outdoor for a extended period of time finally. Thanks God for adventure cove!",
+            "time": "2021-12-14T15:44:21+08:00"
+          },
+          {
+            "authorName": "Zhipeng Lou",
+            "authorURL": "https://www.google.com/maps/contrib/110330269014945421424/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmndeqRCWUYSjPXDtltIsIEJI2tFJVfa5AHx-aI8=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "text": "Experienced the water park during summer time. I have been to several amusement parks with express pass or fast pass, this water park is the least organized one. Waiting time is super long. Lifeguard is helpless and rude. The price of ticket and food is okay, taste of food is not bad though many items are not available. Will not come again for sure and I gave up the planned universal studio trip given they are same company/campus.",
+            "time": "2022-07-04T08:09:39+08:00"
+          },
+          {
+            "authorName": "Esther Khoo",
+            "authorURL": "https://www.google.com/maps/contrib/113342711511188018001/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoEEnloYo7hh-ebX_FuDHrhYNcENPso_dFoXhCqg_A=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "as we went during off peak, certain attraction were closed / under maintenance. the lazy river is also not a full round at the moment.\n\nhowever, the life guards and all staff working there were very friendly and nice. overall a really good experience and had lots of fun.",
+            "time": "2022-08-30T05:49:40+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "THE TRAVELLER DMC PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "SGClean",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0022cdcd1cce54f43b9a6afa95bb6462684",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0022cdcd1cce54f43b9a6afa95bb6462684",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "00224a45ad6c5944882be4e4c94cabac701",
+        "name": "Abdul Gafoor Mosque",
+        "type": "History & Culture",
+        "tags": [
+          "Indoors",
+          "Architecture",
+          "Bugis",
+          "Central",
+          "Free admission",
+          "Attractions"
+        ],
+        "description": "The mosque features a unique fusion of Moorish, South Indian and Western architectural designs, and it was gazetted as a national monument in 1979.",
+        "body": "The Abdul Gafoor Mosque was\nconstructed in 1907 to serve the religious\nneeds of South-Indian Muslim merchants\nand syces who were settling down in\nLittle India at that time. Visitors may notice its unconventional symmetry and the inclusion of classic Western designs alongside Moorish details, which set it apart from other mosques. Besides being gazetted as a national monument in 1979, it was also awarded the\nArchitectural Heritage Award from Singapore’s Urban Redevelopment Authority (URA) in 2003 to recognise its efforts in innovative restoration and conservation works.",
+        "rating": 4.6,
+        "location": {
+          "latitude": 1.3043679,
+          "longitude": 103.8536667
+        },
+        "address": {
+          "block": "41",
+          "streetName": "Dunlop Street",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "209369"
+        },
+        "thumbnails": [
+          {
+            "uuid": "1079160f19385914233a4f45df35f6b6887",
+            "url": "",
+            "libraryUuid": "104fed0048c514f4164bc654099f0632993",
+            "primaryFileMediumUuid": "1079160f19385914233a4f45df35f6b6887"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "10138e029d005214f148953d21051142872",
+            "url": "",
+            "libraryUuid": "104fed0048c514f4164bc654099f0632993",
+            "primaryFileMediumUuid": "1079160f19385914233a4f45df35f6b6887"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2021-09-06T17:59:41+08:00",
+          "createdDate": "2017-09-28T07:35:00+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Abdul Jabbar Kachi",
+            "authorURL": "https://www.google.com/maps/contrib/111491579706260073591/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoKI-hsLkZnv55_6VOXWkcUEnE10XK8aNLgQELD=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "text": "Well maintain. Well design and very historical feelings. Welcome by the staffs at the entrance, though it is not the actual prayers time. Good gesture offering chairs while you are putting on your socks and shoe. Kudos.",
+            "time": "2022-08-08T08:51:56+08:00"
+          },
+          {
+            "authorName": "Victor Uriz",
+            "authorURL": "https://www.google.com/maps/contrib/103237727426561577821/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrlwpDgEv1qe0_q0noXIIIiCHekU4TxEsI4XH3bzA=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 1,
+            "text": "The staff made us wait for 30 minutes to enter as they were praying. We understand, no problem.\nBUT we waited... and finally told us that we couldnt enter, we were not allowed... So, dont worry, you can have it all for yourself.",
+            "time": "2022-08-19T07:53:11+08:00"
+          },
+          {
+            "authorName": "Hussain Kader (Huzz107)",
+            "authorURL": "https://www.google.com/maps/contrib/111558170033446983484/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqk9x4F4iXlm5vU0q2jIX1Mbuapkxh4olg6pRb8Iw=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "The Masjid is so pretty amazing with beautiful structures inside",
+            "time": "2022-09-07T11:44:01+08:00"
+          },
+          {
+            "authorName": "Akshir AB Kadir",
+            "authorURL": "https://www.google.com/maps/contrib/107786575886491700945/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvml-9eHsYMGrqBGo5_QWJT6qiiuNeu1wcH9nhvSm=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Nicely renovated mosque that provides a usually cooling  prayer hall.",
+            "time": "2021-04-02T12:35:15+08:00"
+          },
+          {
+            "authorName": "Mohammad Irfan",
+            "authorURL": "https://www.google.com/maps/contrib/115062115663304344234/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucppA_2dUHM-uiSSPp-Q_IzQkEV3RTT3pcFMbmCx3w=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "text": "Nice peaceful place . Love this masjid",
+            "time": "2022-01-17T13:00:10+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "+6562954209",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Rochor Station",
+        "officialWebsite": "",
+        "officialEmail": "info@abdgafoor.mosque.org.sg",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "N",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": "Opening Hours: By appointment only"
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00224a45ad6c5944882be4e4c94cabac701",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00224a45ad6c5944882be4e4c94cabac701",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002ccdc6e9c97bf42a0b635888a66f85362",
+        "name": "Art Murals around Little India",
+        "type": "Arts",
+        "tags": [
+          "Explorers",
+          "Culture Shapers",
+          "Neighbourhood",
+          "Indian",
+          "Attractions"
+        ],
+        "description": "Little India has many cultural sights to behold but it is also peppered with stunning art murals.",
+        "body": "Many of the murals\ndepict cultural symbolism specific to\nLittle India. Some of them tell tales of the\nsocial and economic landscapes of the\npast and present. Featuring works of Singaporean artists like\nEunice Lim, SONG, Shah Rizzal,\nTraseOne, street artist ZERO, and wellknown\nvisual artist Speak Cryptic. Visitors can also view Kathaka—the work of acclaimed\nColombian graffiti artist, Didier\nJaba Mathieu, and one of the tallest murals in Singapore,\nDancing in Unison, painted by Sam Lo,\nin collaboration with Indian artist\nBhajju Shyam. A digital showcase of the murals can\nbe found at\nwww.artwalklittleindia.sg/retrospective. ",
+        "rating": 4.1,
+        "location": {
+          "latitude": 1.306559,
+          "longitude": 103.851819
+        },
+        "address": {
+          "block": "",
+          "streetName": "",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": ""
+        },
+        "thumbnails": [
+          {
+            "uuid": "1016f2a3424efc44a6fb71e0ddaf0762711",
+            "url": "",
+            "libraryUuid": "10432e9aaaac07843fc9de318b7dcb217d6",
+            "primaryFileMediumUuid": "1016f2a3424efc44a6fb71e0ddaf0762711"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101dc4a05974a834f4082411a6181663a17",
+            "url": "",
+            "libraryUuid": "10432e9aaaac07843fc9de318b7dcb217d6",
+            "primaryFileMediumUuid": "1016f2a3424efc44a6fb71e0ddaf0762711"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2021-09-03T18:44:31+08:00",
+          "createdDate": "2021-09-03T18:44:31+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "C W",
+            "authorURL": "https://www.google.com/maps/contrib/110878945777494875802/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmn7RHbmJDdELAcTo764n91sdK0KCVFHsFTAfk75=s128-c0x00000000-cc-rp-mo-ba6",
+            "rating": 4,
+            "text": "Little India is a lovely neighbourhood to explore. Lots of color, interesting buildings street art and eateries.",
+            "time": "2021-05-09T04:32:46+08:00"
+          },
+          {
+            "authorName": "Hob",
+            "authorURL": "https://www.google.com/maps/contrib/111279973416572568370/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlyluvAp6axfhHMLqhpS6eGO3U4I8HmVWe657Ow=s128-c0x00000000-cc-rp-mo-ba7",
+            "rating": 5,
+            "text": "Really shows the history of the area not-that-long-ago.  Does a good job capturing the ambience and daily activities.  Pity there is no record of the old Kandang Kerbau market with its entrance...",
+            "time": "2018-10-17T15:08:11+08:00"
+          },
+          {
+            "authorName": "Mehtab Gill",
+            "authorURL": "https://www.google.com/maps/contrib/117420884709768545402/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucobv6Zw5dGKuYc94-gmoKbxbP_s1Mdd_f7fimGf7tM=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "This is really awesome for photography",
+            "time": "2019-04-05T07:21:12+08:00"
+          },
+          {
+            "authorName": "Rajesh Selvaraj",
+            "authorURL": "https://www.google.com/maps/contrib/115633564071274310337/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmnpeSrjmrzG-QeNKNgpUGhkYV20aiNhQr-4j9Fm=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Awesome!!!",
+            "time": "2020-09-07T13:34:42+08:00"
+          },
+          {
+            "authorName": "SoonChye Lian",
+            "authorURL": "https://www.google.com/maps/contrib/115417838495728125381/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmQfNi0ZhA4h27R_ybvF-FA2hLRLt6i_jsTtZhr=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Interesting and cultural place where you can our roots.",
+            "time": "2017-06-26T06:29:29+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Little India Station",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "N",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002ccdc6e9c97bf42a0b635888a66f85362",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002ccdc6e9c97bf42a0b635888a66f85362",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "00212d1fd756e0e4fed825eff08c7300f6c",
+        "name": "Ang Mo Kio & Bishan",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Heartlands",
+          "Neighbourhood",
+          "Outdoor Recreation"
+        ],
+        "description": "Ang Mo Kio and Bishan are two neighbourhoods that have grown over the years.",
+        "body": "Once a rubber plantation, Ang Mo Kio started out as a hub for car repair\nshops in the 1970s and soon grew into\na well-planned housing estate. Ang Mo\nKio Town Centre in Ang Mo Kio Avenue\n3 is the town’s main commercial and\ncommunity hub. Situated next to Ang\nMo Kio, Bishan is a peaceful yet buzzing\ntown in central Singapore. The Ang Mo Kio housing estate won\nthe Singapore Institute of Architects’\nOutstanding Buildings Award in 1983 for\nits design. Located on the site of a former\nChinese cemetery, Bishan features a\ntown centre, schools, public parks and\ncommunal facilities. Bishan is located at the most central\npoint of Singapore, and is made up of\nUpper Thomson, Marymount, Shunfu,\nSin Ming, Bishan North and Bishan East. ",
+        "rating": 4.5,
+        "location": {
+          "latitude": 1.369114,
+          "longitude": 103.845434
+        },
+        "address": {
+          "block": "",
+          "streetName": "",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "570408"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101bd65de2b5c5e4172b8879c7955529865",
+            "url": "",
+            "libraryUuid": "1042ae5185422a04440a22e2f363a4d007c",
+            "primaryFileMediumUuid": "101bd65de2b5c5e4172b8879c7955529865"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101cd3484f35ac644ebbe5479a2e626ee5b",
+            "url": "",
+            "libraryUuid": "1042ae5185422a04440a22e2f363a4d007c",
+            "primaryFileMediumUuid": "101bd65de2b5c5e4172b8879c7955529865"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2021-09-03T18:38:19+08:00",
+          "createdDate": "2021-09-03T18:38:19+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Freddie Fun",
+            "authorURL": "https://www.google.com/maps/contrib/100912502323154685472/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmvTHZe4jRMueRJ3DSGFk01DxTimUdG4DVfoixp=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Serene and airy. Can have several circuitry for exercise. Also have outdoor gym equipments.",
+            "time": "2022-03-01T07:15:44+08:00"
+          },
+          {
+            "authorName": "raja sekar",
+            "authorURL": "https://www.google.com/maps/contrib/113810974908523370048/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpJhek-zPkZgozt0agSrGpgKmyv3a1AwN6GyuWQPA=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "text": "One of the biggest park in Singapore. Since it is 24/7, you can witness many fitness freaks roaming here anytime. There is a kids playground as well.",
+            "time": "2022-01-15T00:40:16+08:00"
+          },
+          {
+            "authorName": "6627 Isaac",
+            "authorURL": "https://www.google.com/maps/contrib/115631993282264749259/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlDSVxROG_ny7UMdwnEFthjqMZb4eIc_JJhNxEp=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "So sad that this place will cease after 2021. The food and drinks here are such a joy. Sigh.",
+            "time": "2021-12-28T05:22:23+08:00"
+          },
+          {
+            "authorName": "Kim C",
+            "authorURL": "https://www.google.com/maps/contrib/113518676850335771615/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmm4SM0kcNp3CDHnI2JJJysi2K5WL2wSkoAxDSOG=s128-c0x00000000-cc-rp-mo",
+            "rating": 4,
+            "text": "Lovely place for families as well as those wanting to exercise.  Ample parking. Lots of chicken running around & even saw some cranes in the trees.  Gets a little crowded on weekends, though. The park is large & is divided by a road. Have only been to the side with Grub cafe.",
+            "time": "2021-09-17T11:54:33+08:00"
+          },
+          {
+            "authorName": "Tan Sonia Jean",
+            "authorURL": "https://www.google.com/maps/contrib/117693656683720008431/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlhA6S_OM7348lkBOv676MEqk7HLugyBG82AlZH=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "A great place for young and old to walk about.",
+            "time": "2021-12-20T02:42:53+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Ang Mo Kio/Bishan Station",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00212d1fd756e0e4fed825eff08c7300f6c",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00212d1fd756e0e4fed825eff08c7300f6c",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002c3793f46742045bc9bc3a345dc201a20",
+        "name": "Arab Street",
+        "type": "History & Culture",
+        "tags": [
+          "Culture Shapers",
+          "Neighbourhood",
+          "Cafes",
+          "Attractions",
+          "Arts"
+        ],
+        "description": "Arab Street is known for its traditional textile and handicraft shops, and the people from all walks of life gather here to savour its culture, colour and cuisine.",
+        "body": "Arab Street was previously designated as a residential area for the Arab community. Today, the streets are lined with shops selling brightly coloured fabrics\nand textiles, basketry, hand-knotted\nPersian rug. Other traditional wares such as Persian\ncarpets, kebaya (a traditional\nblouse dress made from muslin and\ndecorated with elaborate embroidery\nand lacework) and handmade perfumes can be found at this street too. Along the way, you may dine at some of the halal eateries featuring Malay and Middle Eastern cuisines. ",
+        "rating": 0,
+        "location": {
+          "latitude": 1.302302,
+          "longitude": 103.858161
+        },
+        "address": {
+          "block": "",
+          "streetName": "",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": ""
+        },
+        "thumbnails": [],
+        "images": [],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2021-09-03T18:10:23+08:00",
+          "createdDate": "2021-09-03T18:10:23+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Bugis",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "N",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002c3793f46742045bc9bc3a345dc201a20",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002c3793f46742045bc9bc3a345dc201a20",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0025a9d5ec1135f4f66a1f303205dda4927",
+        "name": "Alkaff Bridge",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Neighbourhood",
+          "History",
+          "Attractions",
+          "Arts",
+          "Cityscape",
+          "Heritage"
+        ],
+        "description": "This 55-metre long pedestrian bridge was named after a prominent family who lived in Singapore in the early 20th century.",
+        "body": "Constructed in 1997, the bridge was built in the shape of a\ntongkang—a light boat that shipped\ngoods along the river. It is also known as the Singapore Art\nBridge. In 2004, Filipino artist Pacita\nAbad painted it with whimsical patterns\nusing 55 colours. ",
+        "rating": 4.4,
+        "location": {
+          "latitude": 1.290127,
+          "longitude": 103.839968
+        },
+        "address": {
+          "block": "",
+          "streetName": "",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": ""
+        },
+        "thumbnails": [],
+        "images": [],
+        "videos": [],
+        "documents": [],
+        "source": "stb",
+        "metadata": {
+          "updatedDate": "2021-09-03T17:27:01+08:00",
+          "createdDate": "2021-09-03T17:27:01+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Sholhan Aziz",
+            "authorURL": "https://www.google.com/maps/contrib/108880361445408142950/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmkUPKrx_ZlRVhT27HgDmMULUD1Hjpo-hLWr9fDB=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "text": "Very interesting and artistic bridge. Supported by symmetrically curved pipes and charming colorful round patterns add to the uniqueness of this bridge.\nSpanning the Singapore River and only pedestrians and bicycles can pass, this bridge is not too long but will leave you stunned.\nIf we come at night, the decorative lights that complement this silhouette add to the beauty of art. Just across the bridge are various places serving different cuisines.",
+            "time": "2022-06-01T14:33:12+08:00"
+          },
+          {
+            "authorName": "Kaptain Kerr",
+            "authorURL": "https://www.google.com/maps/contrib/111145456892345385117/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmncZoMFozhlkqbKkrkwHNGfDVSnJZavr_v-FH6x=s128-c0x00000000-cc-rp-mo-ba7",
+            "rating": 5,
+            "text": "Lovely spot in central Robertson Quay, providing lovely views of the Singapore river. The bridge itself is for pedestrians only so no cars, with on both sides ramps as well as steps. So perfect for kids on scooters too. The bridge has a cool colour scheme with coloured lighting at nights well.",
+            "time": "2022-03-26T02:46:15+08:00"
+          },
+          {
+            "authorName": "Jackson Seng",
+            "authorURL": "https://www.google.com/maps/contrib/116938237846338409963/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpINgk9yLoaw6ddyLbta0E6GSF6DlCB4ZH9NOa5Khc=s128-c0x00000000-cc-rp-mo-ba8",
+            "rating": 4,
+            "text": "A colorful bridge alongSingapore river and near Robertson Quay. Great photo spot especially during night time when lights lit up.",
+            "time": "2022-07-03T03:39:33+08:00"
+          },
+          {
+            "authorName": "A C",
+            "authorURL": "https://www.google.com/maps/contrib/101365853241777984226/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqBOQGdGcIHXbgA1eIfYf1JLa6sVEkc1rZ7aawrYg=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "So  great   the painting  of   alkaff bridge   so  beautiful  Color.",
+            "time": "2022-02-20T10:12:04+08:00"
+          },
+          {
+            "authorName": "W C Tan",
+            "authorURL": "https://www.google.com/maps/contrib/115358540381846684382/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqfAi4Ft5HXNi6HxSqbkTLhGd93krkLV-badFMK=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Colourful Bridge built in 1997. Blue lights lit up after dark. Good for strolling and taking pictures with the river backdrop",
+            "time": "2021-07-20T05:17:02+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "stb",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "00:00",
+            "closeTime": "23:59",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Fort Canning Station",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0025a9d5ec1135f4f66a1f303205dda4927",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0025a9d5ec1135f4f66a1f303205dda4927",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002e9e0c7deeb274ef989487d795f6e5c12",
+        "name": "ArtScience Museum",
+        "type": "Arts",
+        "tags": [
+          "Film",
+          "Experiences",
+          "Science",
+          "Exhibitions",
+          "Arts"
+        ],
+        "description": "ArtScience Museum is a museum within the integrated resort of Marina Bay Sands in the Downtown Core of the Central Area in Singapore.",
+        "body": "ArtScience Museum is a museum within the integrated resort of Marina Bay Sands in the Downtown Core of the Central Area in Singapore.",
+        "rating": 4.5,
+        "location": {
+          "latitude": 1.2862738,
+          "longitude": 103.8592663
+        },
+        "address": {
+          "block": "",
+          "streetName": "6 Bayfront Ave",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "ArtScience Museum",
+          "postalCode": "018974"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101dd8a7f1277f340bfb30d8abcc92947ae",
+            "url": "",
+            "libraryUuid": "104f956d223a02e4b0c974a31c9c727f17f",
+            "primaryFileMediumUuid": "101dd8a7f1277f340bfb30d8abcc92947ae"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1012a880a95f84b4fec84f8d63988c888f7",
+            "url": "",
+            "libraryUuid": "104f956d223a02e4b0c974a31c9c727f17f",
+            "primaryFileMediumUuid": "101dd8a7f1277f340bfb30d8abcc92947ae"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "THE TRAVELLER DMC PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-08-12T15:19:18+08:00",
+          "createdDate": "2021-02-05T16:45:22+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Jerome Tay",
+            "authorURL": "https://www.google.com/maps/contrib/103868299434862764689/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmlQW-NCVAQHOOUENa7yFZ6SuO7kgcuQEnLf8VT=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "text": "Attractions were super enjoyable. Reasonable prices and had many opportunities for pictures.\n\nWent to the Future World exhibition and had a blast with my companions. Although, the exhibition was quite small and we finished in less than an hour.\n\nInteresting concepts such as drawing and then scanning said drawing to showcase in front of others on a large screen. Very creative pieces overall and would definitely be back.",
+            "time": "2020-12-14T11:35:04+08:00"
+          },
+          {
+            "authorName": "Asmi Agarwal",
+            "authorURL": "https://www.google.com/maps/contrib/100445820416497053726/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrr0Wn29gyhP2HhVQbVyzTDXMUlNaQcp7r4afK5bg=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "The future world exhibit was brilliant, especially for someone with kids as they had many interactive experience for younger audiences- not to say that the adult pieces were any less interesting. The crystal exhibit was short but probably one of the best as it allows you to control an LED illusion with your phone. Overall great experience!",
+            "time": "2022-06-22T13:47:24+08:00"
+          },
+          {
+            "authorName": "Mastiana Hoque",
+            "authorURL": "https://www.google.com/maps/contrib/109501654260335183356/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmnPzsQOPycvplr-lIuck9vvRIebnNwm2VZnVr8p=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "What a beautiful museum and such thought provoking and engaging exhibits.\n\nWe visited this museum on a rainy Sunday and really enjoyed all 3 exhibits that we visited. The Plastics one was probably my favourite as was the photography/Art one.\n\nReally recommended and worth a visit!",
+            "time": "2021-01-10T09:50:48+08:00"
+          },
+          {
+            "authorName": "Jessie Jing",
+            "authorURL": "https://www.google.com/maps/contrib/112955106225582582646/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucp3fuGwGMGhiY5Apy_rygVOT7_PggdiggZfNyUC1A=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "Very good for being children to visit.  There have three different The exhibition hall. Recently about Recent topics have been about Singapore's history and protecting the ocean and reducing the use of plastic.\n\nThere have change topics sometimes.  Very worth be there visit.  Recommend",
+            "time": "2021-01-26T08:59:57+08:00"
+          },
+          {
+            "authorName": "Adnan Ra (Zappel)",
+            "authorURL": "https://www.google.com/maps/contrib/113756579985435352731/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZuco9-Jz0G9XSTrWD2qPQj70-RWJ8DHc-h96lJf5x=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Iconic building. If anything, at least come here to take pictures with the water lily. Good at night and in the day.\n\nTake the lift for free to enjoy a short and. Nice view of the bay.",
+            "time": "2021-03-08T05:23:00+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "THE TRAVELLER DMC PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "10:00",
+            "closeTime": "19:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6566888888",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Bayfront MRT station",
+        "officialWebsite": "https://www.marinabaysands.com/museum.html",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "SGClean",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002e9e0c7deeb274ef989487d795f6e5c12",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002e9e0c7deeb274ef989487d795f6e5c12",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002668f1fdad7d5404aa8551e6f44b84500",
+        "name": "AIRZONE",
+        "type": "Adventure",
+        "tags": [
+          "Indoors",
+          "Kids-friendly",
+          "Local Brands",
+          "Little India",
+          "Shopping",
+          "Families",
+          "Attractions",
+          "Kids"
+        ],
+        "description": "The AIRZONE attraction is an elevated playground with distinct themed zones containing unique games. AIRZONE sits in the atrium space of the shopping mall in between the floor levels. Come and explore the fun!",
+        "body": "Have you ever wanted to feel what it is like to walk on the moon?\n\nAIRZONE is the world’s first indoor atrium net playground, situated in the Little India precinct, creating a truly unique experience for young and old alike.\n\nThe AIRZONE attraction is an elevated playground with three levels of bouncy trampoline nets, and consists of distinct themed zones with unique games, and slides connecting one level to the next. Come and explore the fun!",
+        "rating": 4.4,
+        "location": {
+          "latitude": 1.3113954,
+          "longitude": 103.8568953
+        },
+        "address": {
+          "block": "180",
+          "streetName": "Kitchener Road",
+          "floorNumber": "02",
+          "unitNumber": "K4",
+          "buildingName": "City Square Mall",
+          "postalCode": "208539"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101c66168185ce84177adb8a19cf261a5d0",
+            "url": "",
+            "libraryUuid": "104e82fedfbb5e24292aa5ee7abba90691a",
+            "primaryFileMediumUuid": "101c66168185ce84177adb8a19cf261a5d0"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "10144d3147290724a9981a85e5f797343bc",
+            "url": "",
+            "libraryUuid": "104c4883107903e4905ad4d0b0ec6b9c07f",
+            "primaryFileMediumUuid": "101aab2473a042b4fd992c9b7529029300d"
+          },
+          {
+            "uuid": "1019582e93199844ebdafe66ea1acdb2a20",
+            "url": "",
+            "libraryUuid": "104e82fedfbb5e24292aa5ee7abba90691a",
+            "primaryFileMediumUuid": "101c66168185ce84177adb8a19cf261a5d0"
+          },
+          {
+            "uuid": "1010d3c3b2c9c3e4d19b173159895ae3270",
+            "url": "",
+            "libraryUuid": "10407c7c2121cc345c9af8169a439f54306",
+            "primaryFileMediumUuid": "101ef5e968ea33c47358b82cd8c0863502b"
+          },
+          {
+            "uuid": "10140ea22563d944f69a7dd89a250890320",
+            "url": "",
+            "libraryUuid": "104bd9b1490399b460f94dd6143c403033a",
+            "primaryFileMediumUuid": "101f75e6ec499964ca7b9692f359c7f14ba"
+          },
+          {
+            "uuid": "101e83a48aa11274ec88222b4a7905c1390",
+            "url": "",
+            "libraryUuid": "104b62585981983469b95714bf3b5fa1b48",
+            "primaryFileMediumUuid": "1018e11d67d07c44ccf989023f6e6806e61"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "ULTIMATE AIRZONE PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-07-07T14:57:52+08:00",
+          "createdDate": "2019-04-16T16:16:11+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Simon See",
+            "authorURL": "https://www.google.com/maps/contrib/100442441510116888110/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmOM-DXd4ilta473uWfAljcxd1LL8DcBzM74Ynp=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "Book tickets online",
+            "time": "2020-09-06T09:38:26+08:00"
+          },
+          {
+            "authorName": "Adars K S",
+            "authorURL": "https://www.google.com/maps/contrib/103940292025385774750/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpTtPqRlToaj_RpVfksnErxL-E3WZ5FF0VyZzeaAwk=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "The air zone is a very interesting place in the city square mall. It consists of many nets tied between each floors of the mall and we can climb on through the nets. We can get into the air zone for 20S$. We should be free of all the stuffs such as watches, wallet, car keys or any kind of jewellery when getting into the air zone. Also we’re not allowed to wear shoes or chappals into the air zone, but there should be socks on the legs. The air zone is also a great exercise. I came all sweaty after going to the air zone. Also there is small play area arranged above the air zone.",
+            "time": "2021-01-22T03:03:03+08:00"
+          },
+          {
+            "authorName": "Nan Li",
+            "authorURL": "https://www.google.com/maps/contrib/107983031066094288443/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrWvNvHnU7_WFSv_v5AFaaJN6ZGXUvqYxysrdKzhQ=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Brought 3 kids there, 13, 11 and 4. All three of them had a great time there. The 4 years old initially was not sure how to climb up by herself. The staff kindly lent hand to pull her up.\nOne thing to note, better to wear long pant for your kid. Otherwise when they jump up and down the net may leave red mark on their legs.",
+            "time": "2022-06-20T12:31:42+08:00"
+          },
+          {
+            "authorName": "Yong Ping Lin",
+            "authorURL": "https://www.google.com/maps/contrib/102807011893229265228/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoQv1LoQfBwyoPkiOStYROoi2HSAG4TkTjwjW-a=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "It's lots of fun for the kids.\n\n2x 50 mins sessions for 2 $70.\n\nHaving almost 2 hours of peace and quiet while children are having fun safely, priceless!",
+            "time": "2022-01-02T02:26:24+08:00"
+          },
+          {
+            "authorName": "Jeremy",
+            "authorURL": "https://www.google.com/maps/contrib/104645962386679749455/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmnerEGePZUJzgShbq2z_pf6N6lTjCuyfnalMUIPnw=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "Good place to put your kids and have a break. Wish it was more than just 50 minutes though.",
+            "time": "2022-05-21T05:48:24+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "25"
+        },
+        "companyDisplayName": "ULTIMATE AIRZONE PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "Free Wi-Fi,ATMs,Gift Shop,Carpark",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "11:40",
+            "closeTime": "20:40",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6566319789",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Farrer Park",
+        "officialWebsite": "https://www.airzone.sg",
+        "officialEmail": "info@airzone.sg",
+        "staYear": "",
+        "admissionInfo": "Admission is managed in sessions. Each session is 50 minutes long, session times may be found on www.airzone.sg/yourvisit (subject to change). Session duration includes time that is required for briefing and queuing. Online booking encouraged.",
+        "ticketed": "Y",
+        "group": "SGClean",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002668f1fdad7d5404aa8551e6f44b84500",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002668f1fdad7d5404aa8551e6f44b84500",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0029f950c7c60e04a64916f0e16584b05c2",
+        "name": "Amazing Chambers Singapura",
+        "type": "Adventure",
+        "tags": [
+          "Activities",
+          "Action Seekers",
+          "kampong Gelam"
+        ],
+        "description": "Immersive experience based on Singapore’s history, Malay culture and folklores via the use of escape room.",
+        "body": "Immersive experience based on Singapore’s history, Malay culture and folklores via the use of escape room.",
+        "rating": 4.5,
+        "location": {
+          "latitude": 1.302199,
+          "longitude": 103.860041
+        },
+        "address": {
+          "block": "73",
+          "streetName": "Sultan Gate",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "Sultan gate building",
+          "postalCode": "198497"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101b33d0e0c20c64d39acc22ff6092c8a0c",
+            "url": "",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101b33d0e0c20c64d39acc22ff6092c8a0c",
+            "url": "",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "One Kampong Gelam",
+        "metadata": {
+          "updatedDate": "2021-05-12T16:56:19+08:00",
+          "createdDate": "2021-01-19T19:08:20+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Kaameash rau Kaameash rau",
+            "authorURL": "https://www.google.com/maps/contrib/100950419900728555976/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqGlVlYyquZZ2XSVLm1kB8xpCUyi4lFDgONYeKz=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "We wanted to go out and do something out of our comfort zone. We went to Amazing Chambers and left feeling like real detectives. Thank you Amazing Chambers for the wonderful experience! We will definitely come back for more.",
+            "time": "2021-10-16T12:25:30+08:00"
+          },
+          {
+            "authorName": "Ling Si Hui",
+            "authorURL": "https://www.google.com/maps/contrib/117630205299172908914/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpd-LTwH4xCKDwX5DgP_Kl5Y03ksECZLngRwC30=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "text": "-1000/10\nHad to wait 1.5 hour for the staff to arrive, just to have our game cancelled.\nWe were excited to celebrate new year's eve with Amazing Chambers after reading all the good reviews ... however very disappointed that we had to end 2021 with such a bad experience.",
+            "time": "2021-12-31T14:56:29+08:00"
+          },
+          {
+            "authorName": "Richard Loat",
+            "authorURL": "https://www.google.com/maps/contrib/102872667321698106793/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucolHDMecjJ_6dlN7B6OzmBQvCONqFCsREminYbFW8g=s128-c0x00000000-cc-rp-mo-ba6",
+            "rating": 4,
+            "text": "Very cool location for escape games. The escape games were fun but not the most advanced games that we have seen in the country. there are a lot of great options out there and this is probably a great venue if you're trying out your first escape game.",
+            "time": "2021-03-07T03:22:45+08:00"
+          },
+          {
+            "authorName": "DJ BOI KAY",
+            "authorURL": "https://www.google.com/maps/contrib/113958353430911178564/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucq0-e4eKSrOHWCNKFnR-0M20CL79FlfIi3Ok5mFLhk=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "BEST ESCAPE ROOM EXPERIENCE EVER! Amazing Chambers Singapura is very educational, it’s like a fun museum if I can put it this way. They explained that they’re part of the Malay heritage centre and gave us a brief history of this place which already exceeded our expectations from minute 1! If all historic museums in the world were like this, it’d make visiting every single country a bucket list. SO WORTH IT, I cannot stop telling this to all my friends. We were a group of 7 and the staffs were as equally excited for us as we were and that alone made the experience 10x better!!!",
+            "time": "2021-04-20T06:55:15+08:00"
+          },
+          {
+            "authorName": "ling chung Lee",
+            "authorURL": "https://www.google.com/maps/contrib/103295735880692282181/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucr5a8jrIm6taCwJYDtMWlHmVWQzJ6w7lNXFWTI5LA=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Fun and unique in that there's an effort to incorporate local history and cultural context in the games' storylines and props used. More fitting perhaps is that the games were held in a building that was passed down for several generations. Puzzles were good and made for good fun, props were in good condition as well. Two-games-for-price-of-one definitely worth it. Do remember to use the toilet before the games as there is temporarily none in the premise itself.",
+            "time": "2021-04-03T13:52:42+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "$34.91"
+        },
+        "companyDisplayName": "One Kampong Gelam",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 0,
+            "day": "daily",
+            "daily": true,
+            "openTime": "13:00",
+            "closeTime": "22:00",
+            "description": "Open Daily"
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6569063271",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Bugis MRT Station",
+        "officialWebsite": "https://www.amazingchambers.sg/",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "Peak Hour Charge Applys. Peak Hours: Weekdays 6pm onwards, All day on public holidays and weekends.",
+        "ticketed": "",
+        "group": "",
+        "temporarilyClosed": "",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0029f950c7c60e04a64916f0e16584b05c2",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0029f950c7c60e04a64916f0e16584b05c2",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0027799ef3534e44cc4a512d9cc3c42c305",
+        "name": "Art Jamming Singapore By The Fun Empire",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Activities",
+          "Event Organisers",
+          "Corporate Events",
+          "Couples",
+          "Kids-friendly",
+          "Local Brands",
+          "Young Adults",
+          "Adults",
+          "Kids",
+          "Arts"
+        ],
+        "description": "Unleash Your Creativity With Us!",
+        "body": "Want to be the next Picasso or Van Gogh? The Fun Empire is proud to present a new approach to team building - Art JammingArt Jamming is a fresh new initiative that is highly recommended to boost creativity, nurture patience and foster interactions among participants. Our fun and relaxing art jamming session will inspire participants to unleash their creativity in a cozy and non-judgemental environment. Bring your creativity to life and create a masterpiece together with your team. Come jam with us for your upcoming team building, birthday parties or gathering now!The Fun Empire’s Art Jamming workshop are designed for any type of occasion from small and intimate get together to large gatherings. Available for unlimited participants, The Fun Empire’s Art Jamming Workshop experience is perfect for friends, family and colleagues.Now Available in Singapore!• Ranked #1 in Google & Facebook Review - Over 1000+ 5-Star Reviews• Highly Rated on TripAdvisor• Only company with ISO 9001:2015 Certification (The World's Gold Standard In Quality)• Any Group Size: Minimum 5 Pax To Unlimited• Featuring A Huge Variety Of Art Jamming Packages (Canvas Art Jamming, Tote Bag Art Jamming, Neon Art Jamming etc)• Convenient, Near MRTs Central Locations: Air-Conditioned Venues, Private Venues Available (We are able to conduct the workshop at your your preferred location too!)• Certified & Professional: Fully Guided Experience By Our Professional FacilitatorsAbout The Fun EmpireThe Fun Empire is Asia's leading and award-winning events and team building company that has successfully organized over 10,000 events for more than 1,000,000 participants.\n\nWe provide the world's most unique activities such as Saber Tag®, SaberFit®, Bubble Bump Soccer, Laser Tag, Combat Archery Tag, Poolball™, Ninja Tag™ and Bullet Ball™. We offer exhilarating experiences for all age groups for team building, incentive travel, meetings and conventions, cohesions, birthday parties & casual game plays.\n\nThe Fun Empire also offers unique virtual team building activities and experiences for both small and large groups. The Fun Empire is the only events and team building company in Southeast Asia that is ISO 9001:2015 Certified, the world's gold standard for Quality Management.\n\nThe Fun Empire has also been featured in over 50 media outlets across television, newspapers, radio, magazines, digital platforms and many others (such as Forbes, TimeOut, The Business Times, The Straits Times, Channel 8, Shape, TimeOut Singapore, The Smart Local, etc.)\n\nFor more information, check our website here",
+        "rating": 3.7,
+        "location": {
+          "latitude": 1.308714,
+          "longitude": 103.877315
+        },
+        "address": {
+          "block": "5B",
+          "streetName": "Guillemard Road",
+          "floorNumber": "03",
+          "unitNumber": "01",
+          "buildingName": "Wing Fong Building",
+          "postalCode": "399685"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101ee733a97b2c64ba6a38d8602ad823883",
+            "url": "",
+            "libraryUuid": "104d9eb66b98e6b490eaff17f05022e9597",
+            "primaryFileMediumUuid": "101ee733a97b2c64ba6a38d8602ad823883"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1019dd786da09e3480dad8e072cfc498141",
+            "url": "",
+            "libraryUuid": "104d9eb66b98e6b490eaff17f05022e9597",
+            "primaryFileMediumUuid": "101ee733a97b2c64ba6a38d8602ad823883"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "THE FUN EMPIRE PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-01-15T15:40:03+08:00",
+          "createdDate": "2021-01-15T15:40:03+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Huei Suen Tan (Evelyn)",
+            "authorURL": "https://www.google.com/maps/contrib/114516748023272011779/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrQ1axjHHWHoVTd-qSEMjMu1fz1kNGR5LH53USx8N4=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Tried this out the other day and it was such a relaxing activity! It helped not only me to unleash my creativity, but also my team who attended this.  They also offered so many designs I could learn from and what's more, I get to keep my design after that! I would definitely attend this again!",
+            "time": "2019-04-29T02:33:28+08:00"
+          },
+          {
+            "authorName": "Brandon Siaw",
+            "authorURL": "https://www.google.com/maps/contrib/104505979138334956417/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqjbrWZSzzclWCsnIY-jxAaebBezCCMRSeos3BZ3g=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "My team had different team building activities with The Fun Empire and Art Jamming is one of our favorites! Unlike other physical team building activities, we had fun painting! Thanks The Fun Empire!",
+            "time": "2018-03-20T02:54:59+08:00"
+          },
+          {
+            "authorName": "Jonathan Tong",
+            "authorURL": "https://www.google.com/maps/contrib/114173632133894302517/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmnfnJjUL80TqmmXknvRk9d-mTqBwRa-zUDqc1KI=s128-c0x00000000-cc-rp-mo-ba2",
+            "rating": 5,
+            "text": "Great experience with art jamming singapore. Had a lot of fun painting with my colleagues. good choice for team building.",
+            "time": "2018-02-23T03:41:00+08:00"
+          },
+          {
+            "authorName": "Cheyenne S.",
+            "authorURL": "https://www.google.com/maps/contrib/113885804840143061292/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrr_Vg3hguNdrFOcDCcunQZCoEuxVPlP4ytfr1pCWY=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 1,
+            "text": "Oh god, this walk from the nearest MRT station is not fun, more than 10 minutes. I did tote bag air jamming, is a great waste of time. Firstly there isn’t any instructor to teach how to draw, secondly, there is no team bonding effect and lastly, there is no proper vending machines in the same level, and is so inconvenient to wash my hands just to get to level 1 for drinks. I don’t recommend this for team bonding. $19 is too expensive.",
+            "time": "2019-10-14T12:46:13+08:00"
+          },
+          {
+            "authorName": "Wei Lee",
+            "authorURL": "https://www.google.com/maps/contrib/105199820011855445197/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlCWHvhL2CGqX3CsJ97khxxRazRwdjWeS0iZJYf=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Great art experience with the fun empire!",
+            "time": "2018-03-13T03:25:39+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "19"
+        },
+        "companyDisplayName": "THE FUN EMPIRE PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "Free Wi-Fi,Carpark",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "09:00",
+            "closeTime": "22:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "09:00",
+            "closeTime": "22:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6565154146",
+          "secondaryContactNo": "+6597929179"
+        },
+        "nearestMrtStation": "Mountbatten",
+        "officialWebsite": "",
+        "officialEmail": "hello@thefunempire.com",
+        "staYear": "",
+        "admissionInfo": "• Prices starting from $19 per pax. \n• Minimum 5 Pax to Unlimited Pax \n• Great for Team Building, Incentive Travel, Meetings, Cohesion, Celebrations, Birthday Parties etc.",
+        "ticketed": "Y",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0027799ef3534e44cc4a512d9cc3c42c305",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0027799ef3534e44cc4a512d9cc3c42c305",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002e07e6be525594718a6c81374eb77e434",
+        "name": "Amazing Chambers Singapura Escape Room",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Action",
+          "Family-friendly",
+          "Couples",
+          "Entertainment",
+          "Central",
+          "History",
+          "Corporate Events",
+          "Education",
+          "Teenagers",
+          "Antiques",
+          "Activities",
+          "Adventure",
+          "Architecture",
+          "Unique Venues",
+          "Bugis",
+          "Experiences",
+          "Action Seekers",
+          "Families",
+          "Attractions",
+          "Romantic",
+          "Indoors",
+          "Theme Parks",
+          "Leisure",
+          "Adults",
+          "Lifestyles",
+          "Day"
+        ],
+        "description": "Escape Room Games",
+        "body": "WHAT IS AMAZING CHAMBERS SINGAPURA?\nAmazing Chambers Singapura offers an immersive and interactive lifestyle experience via the use of escape room technology – designed for specially curated themes focusing on Singapore’s ancient history and culture.\n\nWe love it. We know you will too. Here’s why:\n\n- Interactive themes with large chambers to explore- 800 years of history\nState of the art theming and special effects, - Plenty of gadget and props\nLaughs, screams and cutting edge storytellingThemes:- Mysterious Sisters' Islands:Legend tells the story of two pretty sisters, Minah and Linah, who were inseparable. On one unfortunate day, one of them got kidnapped from their abode by pirates.\n\nBeing a Laksamana (an Admiral), you have been commanded by the King to investigate the kidnapping and disappearance of the sisters at the Pirates’ lair.\n\nWhispers from the village says that the Sisters’ Islands emerged after a storm broke out after the kidnapping.\n\nUnravel the mystery of the missing inseparable Sisters and the two mysterious islands that emerged overnight!- Lost Crown: Sang Nila Utama:Sang Nila Utama – a Srivijayan prince from Palembang was said to have founded the kingdom of Singapura in 1299.\n\nWhile his ship was out at sea, a great storm suddenly erupted and the ship was tossed about by the huge waves.  On the advice of the Nakhoda (ship’s captain), Sang Nila Utama threw his crown overboard as a gift to the sea. At once, the storm died down and he reached the shores of Temasek safely.\n\nAbout a century later, rumour has it that the crown, which has been kept hidden at Sang Nila’s last resting place in Bukit Larangan, has been recovered by an obsessed archaeologist who then hid it at a secure and secret location.\n\nInfiltrate into the Archaeologist’s hidden home in the middle of the forest to retrieve the crown and discover his other hidden treasures. He may have set a trap or two to fend off any intruders. Be observant and avoid detection or you and your team will lose the chance to escape!- 1603: Warship Battle:The year is 1603. You & your crew are part of the Dutch Armada. The Dutch had four ships (the Zerikzee, Hollandsche Tuin, Maagd van Enkhuysen and Papagaaiken).\n\nYou have received instructions from your Commander – Vice Admiral Jacob Pietersz van Enkhuysen, to get your ship ready in 1 hour to prepare for battle with the Portugese Armada to break the Portuguese blockade of the Johor River. \n\nWhich side will triumph and emerge victorious?- The Invaders:The Invaders have landed in Singapura. It is up to you and your platoon members from the Royal Malay Regiment to hold your fort at Bukit Chandu.\n\nStep back to 13 February 1942 and join the Battle of Pasir Panjang. Experience the heroic bravery and courage of the Malay Regiment as they fought at their last stand in the defence of Singapura during World War II.\n\nEnhance your interactive journey by using various high tech gadgets and communication equipment hidden in a secret bunker, to seek help. \n\nYou have 60 minutes to decipher the secret codes and radio for reinforcements before the Invading Forces capture your fort at Bukit Chandu.- The Curse:Tanggang is a classic tale of a poor villager who eventually became rich, marrying a princess, and acquiring his own galleon but with a twisted tale.\n\nYou have 60mins to unravel what sets this inevitable divine intervention into motion that led to Tanggang’s fateful demise.- Death of a Princess:Princess Radin Mas Ayu is a tale of a beautiful Javanese princess with the plots of love, deceit and betrayal.\n\nYou secretly amassed the villagers to search Tengku Bagus’ home after receiving a tip-off about the possible kidnapping of the Princess’ father.\n\nDiscover what happens next as the plot thickens.- The Extraordinaire:If you ever had the chance to have a superpower, what would it be? \n\nWell, step into this vortex and travel back in time to meet Badang who was blessed with superhuman strength.  It was said that he gained his immense strength after he devoured something from a mystical creature.  He soon gained popularity as he began to defeat many strong men in competitions and was summoned to the court of the King of Singapura, Sri Rama Wira Kerma.\n\nIn one of these competitions, Badang was said to have picked up a large smooth rock from on top of a hill and flung it so far away that it landed at the mouth of the Singapore River. The rock came to be known as the Singapura stone.\n\nYour quest?  Enter the portal and time travel to the court where Badang had been invited to stay in and you only have an hour to uncover the truth before the portal closes. ",
+        "rating": 4.5,
+        "location": {
+          "latitude": 1.3021859,
+          "longitude": 103.8600379
+        },
+        "address": {
+          "block": "73",
+          "streetName": "Sultan Gate",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "Gedung Kuning",
+          "postalCode": "198497"
+        },
+        "thumbnails": [
+          {
+            "uuid": "101709b7e5aa1f241489803a23c491db2d1",
+            "url": "",
+            "libraryUuid": "1049932e0c438a64ef29a0cb00a3e9278d4",
+            "primaryFileMediumUuid": "101709b7e5aa1f241489803a23c491db2d1"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1014cdab2270e714b638aabb16d50d7d6da",
+            "url": "",
+            "libraryUuid": "104bd4f33ef481443858fcfe428df273563",
+            "primaryFileMediumUuid": "10186bfef6bda534d40870f19dfe0923ba6"
+          },
+          {
+            "uuid": "1014677ce08687e4a52b74847e94fc869a6",
+            "url": "",
+            "libraryUuid": "104c1d18cd4e39f4f29a588960fb7f3e735",
+            "primaryFileMediumUuid": "10127705d92133f40c1b830afc16aece6f1"
+          },
+          {
+            "uuid": "101233a3dd0200f4f18adfb8e768f8ac2ad",
+            "url": "",
+            "libraryUuid": "104733c4864a91b40768f67e8dc127c3818",
+            "primaryFileMediumUuid": "101afa746fd3439416baf41b7606d09fa3f"
+          },
+          {
+            "uuid": "101fd2dff1db6674e9c81969372040115ca",
+            "url": "",
+            "libraryUuid": "1049932e0c438a64ef29a0cb00a3e9278d4",
+            "primaryFileMediumUuid": "101709b7e5aa1f241489803a23c491db2d1"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "SINGAPURA CHAMBERS OF SECRETS PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2021-01-03T13:16:15+08:00",
+          "createdDate": "2020-08-26T18:02:58+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Kaameash rau Kaameash rau",
+            "authorURL": "https://www.google.com/maps/contrib/100950419900728555976/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqGlVlYyquZZ2XSVLm1kB8xpCUyi4lFDgONYeKz=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "We wanted to go out and do something out of our comfort zone. We went to Amazing Chambers and left feeling like real detectives. Thank you Amazing Chambers for the wonderful experience! We will definitely come back for more.",
+            "time": "2021-10-16T12:25:30+08:00"
+          },
+          {
+            "authorName": "Ling Si Hui",
+            "authorURL": "https://www.google.com/maps/contrib/117630205299172908914/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpd-LTwH4xCKDwX5DgP_Kl5Y03ksECZLngRwC30=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "text": "-1000/10\nHad to wait 1.5 hour for the staff to arrive, just to have our game cancelled.\nWe were excited to celebrate new year's eve with Amazing Chambers after reading all the good reviews ... however very disappointed that we had to end 2021 with such a bad experience.",
+            "time": "2021-12-31T14:56:29+08:00"
+          },
+          {
+            "authorName": "Richard Loat",
+            "authorURL": "https://www.google.com/maps/contrib/102872667321698106793/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucolHDMecjJ_6dlN7B6OzmBQvCONqFCsREminYbFW8g=s128-c0x00000000-cc-rp-mo-ba6",
+            "rating": 4,
+            "text": "Very cool location for escape games. The escape games were fun but not the most advanced games that we have seen in the country. there are a lot of great options out there and this is probably a great venue if you're trying out your first escape game.",
+            "time": "2021-03-07T03:22:45+08:00"
+          },
+          {
+            "authorName": "DJ BOI KAY",
+            "authorURL": "https://www.google.com/maps/contrib/113958353430911178564/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucq0-e4eKSrOHWCNKFnR-0M20CL79FlfIi3Ok5mFLhk=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "BEST ESCAPE ROOM EXPERIENCE EVER! Amazing Chambers Singapura is very educational, it’s like a fun museum if I can put it this way. They explained that they’re part of the Malay heritage centre and gave us a brief history of this place which already exceeded our expectations from minute 1! If all historic museums in the world were like this, it’d make visiting every single country a bucket list. SO WORTH IT, I cannot stop telling this to all my friends. We were a group of 7 and the staffs were as equally excited for us as we were and that alone made the experience 10x better!!!",
+            "time": "2021-04-20T06:55:15+08:00"
+          },
+          {
+            "authorName": "ling chung Lee",
+            "authorURL": "https://www.google.com/maps/contrib/103295735880692282181/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucr5a8jrIm6taCwJYDtMWlHmVWQzJ6w7lNXFWTI5LA=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Fun and unique in that there's an effort to incorporate local history and cultural context in the games' storylines and props used. More fitting perhaps is that the games were held in a building that was passed down for several generations. Puzzles were good and made for good fun, props were in good condition as well. Two-games-for-price-of-one definitely worth it. Do remember to use the toilet before the games as there is temporarily none in the premise itself.",
+            "time": "2021-04-03T13:52:42+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "38.90"
+        },
+        "companyDisplayName": "Amazing Chambers Singapura",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "Carpark",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "13:00",
+            "closeTime": "22:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "13:00",
+            "closeTime": "22:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6569063271",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Bugis",
+        "officialWebsite": "www.amazingchambers.sg",
+        "officialEmail": "hello@amazingchambers.sg",
+        "staYear": "",
+        "admissionInfo": "Arrival Time:\n\nPlease Turn up 10 mins before your game starts as the game will start on time. We will start the game if you do not turn up on time.\nWe provide lockers but please do not bring big items or luggage.",
+        "ticketed": "Y",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002e07e6be525594718a6c81374eb77e434",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002e07e6be525594718a6c81374eb77e434",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "002757a7d34c31443da89180a79b723b6c1",
+        "name": "A magical experience at The Intan",
+        "type": "History & Culture",
+        "tags": [
+          "Peranakan",
+          "Unique Venues",
+          "Joo Chiat",
+          "Culture",
+          "Heritage"
+        ],
+        "description": "Learn Peranakan culture through a series of magical illusions!",
+        "body": "The Peranakan culture is a unique story of how early Chinese migrants came to Singapore and married the local Malay women.  Known as Nyonyas, Peranakan women were known to be the pillar of every Peranakan family. What better way to learn about the Peranakan culture then through a series of magical illusions at The Intan?  Narrated through the eyes and voice of Mdm Neo, watch how the kerosang or jewel brooch appears when you call out the magic password and marveled at how different threads are spun together as one , just like the Peranakan culture!Performed against the backdrop of The Intan,  a private home that houses one of Singapore’s most impressive collections of Peranakan artifacts, allow award winning museum owner Alvin Yapp and illusionist Ming Da charm you with their stories about Peranakan culture told in a way never before ",
+        "rating": 4,
+        "location": {
+          "latitude": 1.3146307,
+          "longitude": 103.9009827
+        },
+        "address": {
+          "block": "",
+          "streetName": "69 Joo Chiat Terrace",
+          "floorNumber": "",
+          "unitNumber": "69",
+          "buildingName": "",
+          "postalCode": "427231"
+        },
+        "thumbnails": [
+          {
+            "uuid": "1011dbecebb678b408087c4688f9055158b",
+            "url": "",
+            "libraryUuid": "104b56bf689b26e4a4393af29d12e411e22",
+            "primaryFileMediumUuid": "1011dbecebb678b408087c4688f9055158b"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "10182f85e28d4e9429cb1c0e37e5471459d",
+            "url": "",
+            "libraryUuid": "104b56bf689b26e4a4393af29d12e411e22",
+            "primaryFileMediumUuid": "1011dbecebb678b408087c4688f9055158b"
+          },
+          {
+            "uuid": "1010074a11e9dba4df2a0023fd074075d7e",
+            "url": "",
+            "libraryUuid": "1040e23240a6a314cd1a3b5dcb075d39718",
+            "primaryFileMediumUuid": "101d3f150b71eee40b09f847554e5533936"
+          },
+          {
+            "uuid": "1014a4abff6267044ac80e0646a2180e230",
+            "url": "",
+            "libraryUuid": "1043f7ea65e6575448e9357fc1be97bd0ce",
+            "primaryFileMediumUuid": "10189d9b1f6aed240ccaf9b1ab1d461f3de"
+          },
+          {
+            "uuid": "1013f5d8e9edabd4abdb0adef492c808e8e",
+            "url": "",
+            "libraryUuid": "104e323c8b7215943b0948d7ac144acadb4",
+            "primaryFileMediumUuid": "10100afa351d68f417f9d6ca0706b0f5854"
+          },
+          {
+            "uuid": "101fbc3e5c58abf4eaaad42aa109aaa1de5",
+            "url": "",
+            "libraryUuid": "104f0fd526803e64f2c8732cd2024df3578",
+            "primaryFileMediumUuid": "1018aef72fe0f7b42e9a45c531a82f1a791"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "THE INTAN PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2020-10-22T17:57:58+08:00",
+          "createdDate": "2020-10-22T17:57:58+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Cedric Chin",
+            "authorURL": "https://www.google.com/maps/contrib/114391162151333400755/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucrWIOwNECW9qpELCN6oeoxbhcG9D4qwoI4CVujHug=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "Absolutely fantastic. Alvin was a great guide, a knowledgeable collector, and clearly passionate about Peranakan antiques.",
+            "time": "2021-12-17T14:07:16+08:00"
+          },
+          {
+            "authorName": "lou lou",
+            "authorURL": "https://www.google.com/maps/contrib/112778274120729320901/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlr2JIbu8DmZA2xWnmsyY_PT0fI2ViKj3JuIhFI=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 4,
+            "text": "Really enjoyed our visit, the owner shared a lot of culture and values for the Peranakan heritage. Great learning for all of us. I did pay attention on my way back on Singapore airlines, this museum is where they shot the safty video at. 😄 Strongly recommend.",
+            "time": "2022-07-26T18:35:02+08:00"
+          },
+          {
+            "authorName": "Muhammed Ali",
+            "authorURL": "https://www.google.com/maps/contrib/100509586909934031538/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoXG3JenGQhbD5UEUrIPPNpttTmqrjYOsXRq4eviV4=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "I love this place, the explanation given was awesome. The antiques were very beautifully decorated and the best part is the top floor its out of this world. A must place to go.",
+            "time": "2021-08-23T09:36:54+08:00"
+          },
+          {
+            "authorName": "Ting Shi",
+            "authorURL": "https://www.google.com/maps/contrib/105017924917028973666/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqps_xn3-ZR71FAPOY0OJXCKRBDs3_MpH6cOpqU9w=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "text": "I will not recommend paying that much for visiting this place. SGD 60 is definitely too expensive for this two-storey \"museum\", there is no story, no proper guiding. The owner just displayed everything and then let yourself have a look, I didn't really learn anything or get any memory, it even didn't take 45 mins.",
+            "time": "2022-07-05T11:21:08+08:00"
+          },
+          {
+            "authorName": "Jeremy Foo",
+            "authorURL": "https://www.google.com/maps/contrib/114233602264370929815/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucocGfxHT9kwuvjWHCc48wYm_gOqYGWmoYTEtFIfOg=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Enriching experience. Highly recommended to visit.",
+            "time": "2022-07-13T11:11:05+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "85"
+        },
+        "companyDisplayName": "THE INTAN PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [
+          {
+            "sequenceNumber": 1,
+            "day": "daily",
+            "daily": true,
+            "openTime": "07:00",
+            "closeTime": "22:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 2,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "07:00",
+            "closeTime": "22:00",
+            "description": ""
+          },
+          {
+            "sequenceNumber": 3,
+            "day": "public_holiday",
+            "daily": false,
+            "openTime": "07:00",
+            "closeTime": "22:00",
+            "description": ""
+          }
+        ],
+        "contact": {
+          "primaryContactNo": "+6593382234",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "",
+        "officialWebsite": "",
+        "officialEmail": "alvin@busads.com.sg",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "Y",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002757a7d34c31443da89180a79b723b6c1",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/002757a7d34c31443da89180a79b723b6c1",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0023127535810d949e78e6a070c3fb1365f",
+        "name": "Ann Siang Hill Park",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Attractions"
+        ],
+        "description": "The Ann Siang Hill area is a quiet enclave amid the hustle and bustle of Chinatown. Meander through brightly coloured shophouses and gain insight into the lives of Singapore's early immigrants. Located beside the former Telok Ayer Bay, it was one of three hills (the others being Mount Wallich and Mount Erskine, which were eventually levelled) collectively known as Telok Ayer Hills. \n\nIn the early days of the settlement, clove and nutmeg plantations were established in many parts of the island, including the Ann Siang and Duxton Hill areas. Charles Scott was the first to plant these crops on Ann Siang Hill, which was originally named after him. Ann Siang Hill was superbly irrigated; an underground spring ran through the area and was tapped from a well on the hill. A series of terrible blights decimated the clove and nutmeg plantations across the island, causing my plantation owners to abandon their land.\n\nAfter Scott left his plantation, it passed through the hands of another owner before being sold to Chia Ann Siang in 1894. From then on, the face of Ann Siang Hill changed forever. Shophouses sprang up; Chinese and Straits Chinese residents and businesses moved in and the area was transformed into an urban district. All that was left of the old Ann Siang Hill was Scotts' plantation house, which Chia kept as his family residence.",
+        "body": "The Ann Siang Hill area is a quiet enclave amid the hustle and bustle of Chinatown. Meander through brightly coloured shophouses and gain insight into the lives of Singapore's early immigrants. Located beside the former Telok Ayer Bay, it was one of three hills (the others being Mount Wallich and Mount Erskine, which were eventually levelled) collectively known as Telok Ayer Hills. \n\nIn the early days of the settlement, clove and nutmeg plantations were established in many parts of the island, including the Ann Siang and Duxton Hill areas. Charles Scott was the first to plant these crops on Ann Siang Hill, which was originally named after him. Ann Siang Hill was superbly irrigated; an underground spring ran through the area and was tapped from a well on the hill. A series of terrible blights decimated the clove and nutmeg plantations across the island, causing my plantation owners to abandon their land.\n\nAfter Scott left his plantation, it passed through the hands of another owner before being sold to Chia Ann Siang in 1894. From then on, the face of Ann Siang Hill changed forever. Shophouses sprang up; Chinese and Straits Chinese residents and businesses moved in and the area was transformed into an urban district. All that was left of the old Ann Siang Hill was Scotts' plantation house, which Chia kept as his family residence.",
+        "rating": 4.2,
+        "location": {
+          "latitude": 1.28218,
+          "longitude": 103.84415
+        },
+        "address": {
+          "block": "",
+          "streetName": "78 Club Street,",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "069447"
+        },
+        "thumbnails": [
+          {
+            "uuid": "",
+            "url": "https://chinatown.sg/wp-content/uploads/2020/06/ann-siang-hill-park-150x150.jpg",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "images": [
+          {
+            "uuid": "",
+            "url": "https://chinatown.sg/wp-content/uploads/2020/06/ann-siang-hill-park.jpg",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "Chinatown Business Association",
+        "metadata": {
+          "updatedDate": "2020-10-06T10:49:52+08:00",
+          "createdDate": "2020-08-10T14:52:11+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "rand chua",
+            "authorURL": "https://www.google.com/maps/contrib/110647908608244588429/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucp0_R23rEfrZkn0yZSmYv7t-9UnWSTz2jwxrY1xRg=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 4,
+            "text": "An interesting small park in the city area. Nice place to relax and enjoy the view. Note it's still feel Hot in the day. People do use it as a short cut to cross the area here.",
+            "time": "2022-04-27T05:43:34+08:00"
+          },
+          {
+            "authorName": "Francis Soh",
+            "authorURL": "https://www.google.com/maps/contrib/107843603649903245447/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmk3Flv3baXAAF4hc6u6QJATXghW8srg3NoA2qJX=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 3,
+            "text": "I only know that there is an old well kept as a historical site, where the rest is commercialised.\nThis is the place where early settlers brought water to Chinatown via bull carts.",
+            "time": "2022-07-28T01:41:03+08:00"
+          },
+          {
+            "authorName": "Graham Little",
+            "authorURL": "https://www.google.com/maps/contrib/112462781240796894660/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucptsiKkipAwrZfVq3MWEx8TjjQuJLqeOCdBx3FWEQ=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 4,
+            "text": "A nice walk but quite busy and lively which is good if your looking for that. Sunset was a nice time to be there for pictures and dinner.",
+            "time": "2022-05-28T13:42:03+08:00"
+          },
+          {
+            "authorName": "Sandra",
+            "authorURL": "https://www.google.com/maps/contrib/108444186723547263962/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmkQxCnixHc8UePb78-aKkJI6u9hcrmPxNN_rK-T=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 4,
+            "text": "Interesting hill park in d heart of city. Like d feel n concept but d steps r a little daunting for older folks. Some of d benches r also situated in d sun.",
+            "time": "2022-08-14T12:19:02+08:00"
+          },
+          {
+            "authorName": "Hassan kojek",
+            "authorURL": "https://www.google.com/maps/contrib/109532996969254011422/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqmLT6Yxtet0enanelLdRe5xM6y3lvFmE_yRfVJNxE=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "Good place to chill and telex. Lots of cafes and bar to choose. Spoil for choice!",
+            "time": "2022-07-14T00:58:53+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "Chinatown Business Association",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Telok Ayer MRT Station",
+        "officialWebsite": "https://chinatown.sg/wp-content/uploads/2020/06/Trail-of-Ann-Siang-Hill-Park-and-Telok-Ayer-Green.pdf",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "",
+        "temporarilyClosed": "",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0023127535810d949e78e6a070c3fb1365f",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0023127535810d949e78e6a070c3fb1365f",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0028701d900cf034e768840f699b4cc5770",
+        "name": "Aeroviation: Flight Experience for Families",
+        "type": "Others",
+        "tags": [
+          "Family-friendly",
+          "Kids-friendly",
+          "Families",
+          "Kids"
+        ],
+        "description": "Aeroviation offers a 1-hr parent/child duo Flight Experience.",
+        "body": "Always dreamed of flying? What better way to amplify the joy of flying when you fly together with your family? In this flight, dedicated instructors will guide you through the steps to be able to fly the aircraft on your own and potentially do your own landings! Take controls, unlock your freedom, and explore the skies!\n\nSuggested Age: 7 Years Old and above\n ",
+        "rating": 4.9,
+        "location": {
+          "latitude": 1.3321161,
+          "longitude": 103.8901985
+        },
+        "address": {
+          "block": "63",
+          "streetName": "Ubi Road 1",
+          "floorNumber": "01",
+          "unitNumber": "05",
+          "buildingName": "Oxley Bizhub",
+          "postalCode": "408728"
+        },
+        "thumbnails": [
+          {
+            "uuid": "10158f4567fffe147cebdeb6cd8c36c3767",
+            "url": "",
+            "libraryUuid": "1049fdde387efc5497ea54ed4a21c4312de",
+            "primaryFileMediumUuid": "10158f4567fffe147cebdeb6cd8c36c3767"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "1018fc64f069ca44479be30a9436975c18a",
+            "url": "",
+            "libraryUuid": "1049fdde387efc5497ea54ed4a21c4312de",
+            "primaryFileMediumUuid": "10158f4567fffe147cebdeb6cd8c36c3767"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "BYKIDO PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2020-09-26T10:51:05+08:00",
+          "createdDate": "2020-09-26T10:51:05+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "nur zafirah",
+            "authorURL": "https://www.google.com/maps/contrib/111948963575116015837/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpFKYZpizXcBkIdwO1J9STkipQcx7QjYXd82K52Og=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Went for the VIP Experience for my partner’s birthday back in mid July. It was such a pleasant and memorable experience. Our instructor was very friendly and helpful and explained everything so clearly. Truly enjoyed our time there☺️",
+            "time": "2022-08-06T12:08:38+08:00"
+          },
+          {
+            "authorName": "JK",
+            "authorURL": "https://www.google.com/maps/contrib/118149147879999575087/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmkXOnxtsgEqezAvCWrraK_RwokyFY2mmM0tV5Dd=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "It’s truly an interesting experience to learn about how to operate and flying an aircraft. Faris is very friendly and helpful. We enjoyed our time here and will recommend people to come and try out the simulator!",
+            "time": "2022-07-14T12:23:26+08:00"
+          },
+          {
+            "authorName": "Noorzailan Juraimi",
+            "authorURL": "https://www.google.com/maps/contrib/104014925007507003169/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmGUuBYzis1j6B1WXzox10HjdJUZbb0iuCqfTIY=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "It was an enjoyable experience. My granddaughter and I were able to “fly” together to Paris, Cairo and Grand Canyon. The instructor was engaging.",
+            "time": "2022-07-31T10:38:39+08:00"
+          },
+          {
+            "authorName": "I. P. Freely",
+            "authorURL": "https://www.google.com/maps/contrib/102460355131656841027/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpN-BZ29e1kT9F-X5fJwy_QLUAsHvSvKZahGZYSLg=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Quality training facility for individuals of all ages for ground theory, familiarisation, and recreational flight training.\n\nInstructors of great diversity in the realm of experience and specialisation at your assistance.",
+            "time": "2022-07-24T01:06:29+08:00"
+          },
+          {
+            "authorName": "Edrie Boomz",
+            "authorURL": "https://www.google.com/maps/contrib/111751045487129289869/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpn6LU9By0P_7JJsRSAYNjX_0f-9rRNkqccG3kKhw=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "text": "Very friendly and approachable crew who taught us everything we needed to know in this 30 min crash course!\n\nSuch a fun experience and the simulator felt very real indeed.\n\nIf you’re looking for something fun to do with your loved ones, go for this!",
+            "time": "2022-02-08T05:14:57+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "120"
+        },
+        "companyDisplayName": "BYKIDO PTE. LTD.",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "+6596505564",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "",
+        "officialWebsite": "",
+        "officialEmail": "info@aeroviation.com",
+        "staYear": "",
+        "admissionInfo": "Booking is required",
+        "ticketed": "Y",
+        "group": "",
+        "temporarilyClosed": "N",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0028701d900cf034e768840f699b4cc5770",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0028701d900cf034e768840f699b4cc5770",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "0026b26bbc2848546208964d69cf99b405b",
+        "name": "Adventure Cove Waterpark (Resorts World Sentosa) ",
+        "type": "Leisure & Recreation",
+        "tags": [
+          "Attractions",
+          "Families",
+          "Sentosa",
+          "Family-friendly",
+          "Outdoor Recreation"
+        ],
+        "description": "Thrilling slides and encounters with marine life – all in one place. At Adventure Cove Waterpark, you can take high-speed water slides, laze the day away drifting on a lazy river, snorkel with 20,000 tropical fish over a colourful reef, wade among rays and even come face to face with sharks! Come have fun today with us at Resorts World Sentosa! Where the water's full of life.",
+        "body": "Offering a full day of splashing fun in the sun, Adventure Cove Waterpark is designed for thrill-seekers and families\nalike, promising an exhilarating day of enjoyment. Located within Resorts World Sentosa, the waterpark comprises\nof six waterslides and many other attractions, with a wide array of F&B offerings. It is a unique outdoor venue for\nfun and excitement, especially for those seeking respite from the tropical heat.\nGuests to the park will feel the adrenaline rush as they zip down thrill-packed water slides such as Southeast Asia’s\nfirst hydro-magnetic coaster. They can also chill out with friends and their loved ones at Bluwater Bay wave pool,\nor grab a tube and float down Adventure River, journeying through 14 stunning scenes including a tropical jungle\ngarden and a grotto inhabited by mystical and fantasy-like never-before-seen marine creatures.\nAs the region’s only waterpark with marine life elements, guests can immerse in marine habitats, such as\nsnorkelling with thousands of fish over the colourful Rainbow Reef or sign up for an unforgettable encounter with\nethereal rays.Adventure Cove Waterpark is located at Resorts World Sentosa (RWS).",
+        "rating": 4.3,
+        "location": {
+          "latitude": 1.25879,
+          "longitude": 103.818662
+        },
+        "address": {
+          "block": "8",
+          "streetName": "Sentosa Gateway",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "Adventure Cove Waterpark",
+          "postalCode": "098269"
+        },
+        "thumbnails": [
+          {
+            "uuid": "1011868c25d61d6429691e997c17113a57d",
+            "url": "",
+            "libraryUuid": "1043016b89e4fd545a6905a2fe9d523950d",
+            "primaryFileMediumUuid": "1011868c25d61d6429691e997c17113a57d"
+          }
+        ],
+        "images": [
+          {
+            "uuid": "101a8913f341146433fa5f964511ab71b6d",
+            "url": "",
+            "libraryUuid": "104a55735bc3ab346eea7494a24b4ef8794",
+            "primaryFileMediumUuid": "10196671659cf16412e8bc15061444ea507"
+          },
+          {
+            "uuid": "101bf48158f5f9b43e3a9e82eb485519056",
+            "url": "",
+            "libraryUuid": "1043016b89e4fd545a6905a2fe9d523950d",
+            "primaryFileMediumUuid": "1011868c25d61d6429691e997c17113a57d"
+          }
+        ],
+        "videos": [],
+        "documents": [],
+        "source": "RESORTS WORLD AT SENTOSA PTE. LTD.",
+        "metadata": {
+          "updatedDate": "2020-09-01T14:19:07+08:00",
+          "createdDate": "2019-06-18T14:42:50+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Brady Russell",
+            "authorURL": "https://www.google.com/maps/contrib/115188659545622977369/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucp4OpcbhxwO5rfmb8uSNBO5XyzGs53L8uJBb3RLcg=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 4,
+            "text": "Great water park.  I was a bit surprised by the limited amount of attractions (you could probably do all the rides in an hour on a quiet day) but they were all fun, the staff were great and the park was easy to navigate.  Amenities were absolutely fantastic, change rooms were spotless with plenty of showers that were well maintained.  Didn’t check out any of the food stalls but they seemed well priced with some options.  Glad I came!",
+            "time": "2022-08-23T02:34:33+08:00"
+          },
+          {
+            "authorName": "Vegas Lee",
+            "authorURL": "https://www.google.com/maps/contrib/109622502678248936915/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucqFCaR2ZHH6vQFksofjgNv8M0KH1GfO547yj2Db=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "Adventure Cove is one of my favorite places in Singapore! Had a quick day trip with my partner and everything was great. My favorite attraction was Rainbow Reef!\n\nThe staffs were extremely nice and attentive. They let us finish the lap around the lazy river when it’s past their closing time.\n\nRecently, they made some changes to the express pass where they capped the number of times you can go on a ride as express. Definitely not as worth it as before!\n\nPrices for entry was reasonable. Food and refreshments are available but at theme park prices. Do have a hearty breakfast before coming as re-entry is not possible.\n\nLockers are available as well but it was rather pricey.\n\nLastly, Splashworks was closed (i think due to manpower issue)",
+            "time": "2022-08-09T16:20:02+08:00"
+          },
+          {
+            "authorName": "Denise K",
+            "authorURL": "https://www.google.com/maps/contrib/101070434904326442330/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmlceFonIbPF7fDAHRGNrOs5CFqgLESq-p-HL_Dp=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "So great even now when they restrict number of people getting into the wave pool. Still worth going. Great to not wear mask outdoor for a extended period of time finally. Thanks God for adventure cove!",
+            "time": "2021-12-14T15:44:21+08:00"
+          },
+          {
+            "authorName": "Zhipeng Lou",
+            "authorURL": "https://www.google.com/maps/contrib/110330269014945421424/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmndeqRCWUYSjPXDtltIsIEJI2tFJVfa5AHx-aI8=s128-c0x00000000-cc-rp-mo",
+            "rating": 1,
+            "text": "Experienced the water park during summer time. I have been to several amusement parks with express pass or fast pass, this water park is the least organized one. Waiting time is super long. Lifeguard is helpless and rude. The price of ticket and food is okay, taste of food is not bad though many items are not available. Will not come again for sure and I gave up the planned universal studio trip given they are same company/campus.",
+            "time": "2022-07-04T08:09:39+08:00"
+          },
+          {
+            "authorName": "Esther Khoo",
+            "authorURL": "https://www.google.com/maps/contrib/113342711511188018001/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoEEnloYo7hh-ebX_FuDHrhYNcENPso_dFoXhCqg_A=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 4,
+            "text": "as we went during off peak, certain attraction were closed / under maintenance. the lazy river is also not a full round at the moment.\n\nhowever, the life guards and all staff working there were very friendly and nice. overall a really good experience and had lots of fun.",
+            "time": "2022-08-30T05:49:40+08:00"
+          }
+        ],
+        "pricing": {
+          "others": "SGD38 (Adult), SGD30 (Child/Senior)"
+        },
+        "companyDisplayName": "RESORTS WORLD AT SENTOSA PTE. LTD.",
+        "supportedLanguage": [
+          "EN",
+          "KO"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Harbourfront",
+        "officialWebsite": "https://www.rwsentosa.com/en/attractions/adventure-cove-waterpark",
+        "officialEmail": "enquiries@rwsentosa.com",
+        "staYear": "",
+        "admissionInfo": "In the event of inclement weather, all outdoor attractions will be suspended for your safety.",
+        "ticketed": "Y",
+        "group": "SGClean",
+        "temporarilyClosed": "Y",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0026b26bbc2848546208964d69cf99b405b",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/0026b26bbc2848546208964d69cf99b405b",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      },
+      {
+        "uuid": "00250128dd616b249b9a418d5ebb888488f",
+        "name": "Al-Abrar Mosque",
+        "type": "History & Culture",
+        "tags": [
+          "Attractions"
+        ],
+        "description": "This historical mosque, began life in 1827 as a thatched hut. Its modest structure gave rise to its other name, given by its Indian Muslim congregation - Kucha Palli, meaning 'small mosque' in Tamil. The Indian-Muslim worshippers at Al-Abrar Mosque were mostly from the Coromandal Coast of Southern India, known as Chulias. Mostly traders and money changers, many settled and worked in Chinatown. The mosque was not only their spiritual refuge, but also a social venue in which the community could meet and interact.\n\nFrom 1850 to 1855, the humble hut was transformed into a brick and plaster structure, with a simple Indian-Islamic theme. In 1986, extensive renovations were carried out, resulting in the mosque that stands here today. The prayer hall was extended by one floor, increasing the mosque's capacity from 300 to 800. Craftsmen, specialising in mosque architecture, where brought in to design the new elements and to ensure that blended with the old features.",
+        "body": "This historical mosque, began life in 1827 as a thatched hut. Its modest structure gave rise to its other name, given by its Indian Muslim congregation - Kucha Palli, meaning 'small mosque' in Tamil. The Indian-Muslim worshippers at Al-Abrar Mosque were mostly from the Coromandal Coast of Southern India, known as Chulias. Mostly traders and money changers, many settled and worked in Chinatown. The mosque was not only their spiritual refuge, but also a social venue in which the community could meet and interact.\n\nFrom 1850 to 1855, the humble hut was transformed into a brick and plaster structure, with a simple Indian-Islamic theme. In 1986, extensive renovations were carried out, resulting in the mosque that stands here today. The prayer hall was extended by one floor, increasing the mosque's capacity from 300 to 800. Craftsmen, specialising in mosque architecture, where brought in to design the new elements and to ensure that blended with the old features.",
+        "rating": 4.7,
+        "location": {
+          "latitude": 1.28218,
+          "longitude": 103.84415
+        },
+        "address": {
+          "block": "",
+          "streetName": "192 Telok Ayer Street,",
+          "floorNumber": "",
+          "unitNumber": "",
+          "buildingName": "",
+          "postalCode": "068635"
+        },
+        "thumbnails": [],
+        "images": [
+          {
+            "uuid": "",
+            "url": "https://chinatown.sg/wp-content/uploads/2020/06/al-abrar-mosque.jpg",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "videos": [
+          {
+            "uuid": "",
+            "url": "https://www.youtube.com/watch?v=nyX4ecenKT0",
+            "libraryUuid": "",
+            "primaryFileMediumUuid": ""
+          }
+        ],
+        "documents": [],
+        "source": "Chinatown Business Association",
+        "metadata": {
+          "updatedDate": "2020-08-24T12:49:55+08:00",
+          "createdDate": "2020-08-10T16:40:28+08:00"
+        },
+        "categoryDescription": "Attractions",
+        "dataset": "attractions",
+        "reviews": [
+          {
+            "authorName": "Descendant of Tamin",
+            "authorURL": "https://www.google.com/maps/contrib/105125043530778525579/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucoSiwWbk8ueB2AvZUMspzpSN9Q2kVFQp35Y-hxBIbc=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 5,
+            "text": "A well maintained place of worship among the rows of eateries.\nAn example of how various places of worship can exist within a 500m radius.",
+            "time": "2022-07-14T01:43:16+08:00"
+          },
+          {
+            "authorName": "H I",
+            "authorURL": "https://www.google.com/maps/contrib/118147628112248145087/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZuconeF2C54sl66VetuM-MGm7vTROkBmNTk28GFv7TA=s128-c0x00000000-cc-rp-mo",
+            "rating": 5,
+            "text": "Historical mosque. Now handled by Indian Muslims. Imam and staff are Indians. Should be Hanafi Mazhab. Very nice place to pray. Even for Friday. 👍🏻",
+            "time": "2022-08-14T10:33:17+08:00"
+          },
+          {
+            "authorName": "Mudassir Ishtiaq",
+            "authorURL": "https://www.google.com/maps/contrib/117083534452167808828/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmr2M3rJGTCtAUir32CER75UsXRZ0ObUTrsMi0Q=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating": 5,
+            "text": "Masha Allah, Subhan Allah.\nVery neat and clean facilities and Jumma is always on time",
+            "time": "2022-07-03T04:07:06+08:00"
+          },
+          {
+            "authorName": "Othman Abdullah",
+            "authorURL": "https://www.google.com/maps/contrib/106414407562174829452/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a/AItbvmmlhlNJ_8hSd48ldpp3yvfhi7jwYdJVjqGqYsQx=s128-c0x00000000-cc-rp-mo-ba5",
+            "rating": 5,
+            "text": "Place for towners workers to worship Allah SWT. aamiin",
+            "time": "2021-12-03T06:02:08+08:00"
+          },
+          {
+            "authorName": "AzMean Sam",
+            "authorURL": "https://www.google.com/maps/contrib/100156412685046509796/reviews",
+            "language": "en",
+            "profilePhoto": "https://lh3.googleusercontent.com/a-/AFdZucpOqrKUWzg5sZPAoiLpTs1EVVwemevDs-Nj7W1rdT4=s128-c0x00000000-cc-rp-mo-ba4",
+            "rating": 3,
+            "text": "Masjid is closed on weekends and PH (maybe during the Covid period)",
+            "time": "2022-02-05T13:24:46+08:00"
+          }
+        ],
+        "pricing": {
+          "others": ""
+        },
+        "companyDisplayName": "Chinatown Business Association",
+        "supportedLanguage": [
+          "EN"
+        ],
+        "amenities": "",
+        "businessHour": [],
+        "contact": {
+          "primaryContactNo": "+65 6220 6306",
+          "secondaryContactNo": ""
+        },
+        "nearestMrtStation": "Telok Ayer MRT Station",
+        "officialWebsite": "",
+        "officialEmail": "",
+        "staYear": "",
+        "admissionInfo": "",
+        "ticketed": "",
+        "group": "",
+        "temporarilyClosed": "",
+        "businessHourNotes": {
+          "notes": ""
+        },
+        "links": [
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00250128dd616b249b9a418d5ebb888488f",
+            "rel": "update",
+            "method": "PUT"
+          },
+          {
+            "href": "https://api.stb.gov.sg/content-management/attractions/v2/00250128dd616b249b9a418d5ebb888488f",
+            "rel": "delete",
+            "method": "DELETE"
+          }
+        ]
+      }
+    ],
+    "paginationLinks": {
+      "self": "https://api.stb.gov.sg/content/attractions/v2/search?offset=0&limit=20&searchType=keyword&searchValues=a",
+      "first": "https://api.stb.gov.sg/content/attractions/v2/search?offset=0&limit=20&searchType=keyword&searchValues=a",
+      "next": "https://api.stb.gov.sg/content/attractions/v2/search?offset=20&limit=20&searchType=keyword&searchValues=a"
+    },
+    "totalRecords": 444,
+    "retrievedRecords": 20
+  }

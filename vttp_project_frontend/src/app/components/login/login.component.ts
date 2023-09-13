@@ -6,6 +6,7 @@ import { UserData } from 'src/app/models';
 import { UserService } from 'src/app/services/user.service';
 import { ErrordialogComponent } from '../errordialog/errordialog.component';
 import { ErrorService } from 'src/app/services/error.service';
+import { TokenService } from 'src/app/services/token.service';
 
 @Component({
   selector: 'app-login',
@@ -15,7 +16,7 @@ import { ErrorService } from 'src/app/services/error.service';
 export class LoginComponent implements OnInit {
 
   constructor(private fb: FormBuilder, private userSvc: UserService, private router: Router,
-    private dialog: MatDialog, private errorSvc: ErrorService) {}
+    private dialog: MatDialog, private errorSvc: ErrorService, private tokenSvc: TokenService) {}
 
   loginForm!: FormGroup;
 
@@ -32,9 +33,12 @@ export class LoginComponent implements OnInit {
     u = this.loginForm.value as UserData;
     this.userSvc.login(u)
       .then(data => {
-        console.log("data >> " + data);
+        console.log("data >> " + JSON.stringify(data));
         this.userSvc.currentUser = data as UserData;
         console.log("currentUser name >> " + this.userSvc.currentUser.displayName);
+
+        console.log("currentUser token >> " + this.userSvc.currentUser.token);
+        this.tokenSvc.setAuthToken(this.userSvc.currentUser.token? this.userSvc.currentUser.token : null);
 
         this.router.navigate(['/']);
       })

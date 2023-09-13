@@ -25,7 +25,8 @@ export class CreateaccountComponent implements OnInit {
     this.createForm = this.fb.group({
       displayName: this.fb.control<string>('', [ Validators.required ]),
       email: this.fb.control<string>('', [ Validators.required, Validators.email ]),
-      userPassword: this.fb.control<string>('', [ Validators.required ])
+      userPassword: this.fb.control<string>('', [ Validators.required ]),
+      confirmPassword: this.fb.control<string>('', [ Validators.required ])
     })
   }
 
@@ -38,6 +39,12 @@ export class CreateaccountComponent implements OnInit {
       .then(data => {
         console.log("data >> " + data);
 
+        this.userSvc.login(u)
+          .then(data => {
+            console.log("data >> " + JSON.stringify(data));
+            this.userSvc.currentUser = data as UserData;
+            console.log("currentUser name >> " + this.userSvc.currentUser.displayName);
+          })
         // this.userSvc.loggedIn = true;
         // this.userSvc.currentUser = u.displayName;
 
