@@ -26,4 +26,25 @@ export class UserService {
   getProfile(id: string) {
     return firstValueFrom(this.httpClient.get(`/api/profile/${id}`));
   }
+
+
+  getCurrentUser(): string | null {
+    return window.localStorage.getItem("current_user_data_id");
+  }
+
+  setCurrentUser(user: UserData | null): void {
+    if (user !== null) {
+      window.localStorage.setItem("current_user_data_id", JSON.stringify(user.userDataId));
+      window.localStorage.setItem("current_user_display_name", JSON.stringify(user.displayName));
+      window.localStorage.setItem("current_user_email", JSON.stringify(user.email));
+      window.localStorage.setItem("current_user_image_url", JSON.stringify(user.imageUrl));
+    }
+    else {
+      window.localStorage.removeItem("current_user_data_id");
+      window.localStorage.removeItem("current_user_display_name");
+      window.localStorage.removeItem("current_user_email");
+      window.localStorage.removeItem("current_user_image_url");
+
+    }
+  }
 }

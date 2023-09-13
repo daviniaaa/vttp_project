@@ -80,4 +80,8 @@ public class UserService {
         }
 
     }
+
+    public Optional<UserData> findUserById(String id) {
+        return userRepo.findUserById(id);
+    }
 }

@@ -18,6 +18,11 @@
   </form>
 
   <span *ngIf="!mobile" class="example-spacer"></span>
+
+  <button mat-mini-fab routerLink="/donate">
+    <mat-icon>attach_money</mat-icon>
+  </button>
+
   <button *ngIf="currentUsername=='Login'" mat-flat-button extended color="primary" routerLink="/login">
       <mat-icon>person</mat-icon>
       <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->

@@ -1,8 +1,10 @@
 package vttp_project_backend.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -11,9 +13,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import vttp_project_backend.exception.CustomException;
 import vttp_project_backend.models.EventDetails;
+import vttp_project_backend.models.UserData;
 import vttp_project_backend.models.ExternalApi.DataObject;
 import vttp_project_backend.service.EventService;
+import vttp_project_backend.service.UserService;
 import vttp_project_backend.service.VttpProjectService;
 
 @Controller
@@ -21,6 +26,7 @@ import vttp_project_backend.service.VttpProjectService;
 public class VttpProjectController {
     @Autowired private VttpProjectService service;
     @Autowired private EventService eventService;
+    @Autowired private UserService userService;
 
     // @PostMapping(path = "/create", consumes = MediaType.APPLICATION_JSON_VALUE)
     // public ResponseEntity<String> createAccount(@RequestBody @Valid UserRegistration u) {
@@ -81,4 +87,14 @@ public class VttpProjectController {
     //     List<EventDetails> events =  service.search(keywords);
     //     return ResponseEntity.ok(events);
     // }
+
+    @GetMapping(path = "/profile/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<UserData> getUser(@PathVariable String id) {
+        Optional<UserData> opt = userService.findUserById(id);
+
+        if(opt.isEmpty())
+            throw new CustomException("No user with id " + id, HttpStatus.NOT_FOUND);
+        
+        return ResponseEntity.ok(opt.get());
+    }
 }

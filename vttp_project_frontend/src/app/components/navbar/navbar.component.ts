@@ -27,10 +27,21 @@ export class NavbarComponent implements OnInit {
 
     this.mobile = window.innerWidth < 600;
 
-    var m = document.querySelector('mat-form-field.mat-mdc-text-field-wrapper');
-    if (!this.mobile) {
-      m?.setAttribute("width", "140%");
+    // var m = document.querySelector('mat-form-field.mat-mdc-text-field-wrapper');
+    // if (!this.mobile) {
+    //   m?.setAttribute("width", "140%");
+    // }
+
+    if (this.userSvc.getCurrentUser() != null) {
+      // let id: string = "";
+      // id += JSON.stringify(this.userSvc.getCurrentUser);
+      this.userSvc.getProfile(this.userSvc.getCurrentUser()?.substring(1,9)!).then(data => {
+        console.log(data);
+        this.userSvc.currentUser = data as UserData;
+      })
     }
+
+
   }
 
   search() {
@@ -73,8 +84,10 @@ export class NavbarComponent implements OnInit {
     this.userSvc.currentUser = { email: "", userPassword: "" };
 
     this.tokenSvc.setAuthToken(null);
+    this.userSvc.setCurrentUser(null);
 
     this.router.navigate(['/']);
     this.snackBar.open("Sign out successful", "DISMISS");
   }
 }
+
