@@ -1,1 +1,43 @@
-<p>{{profile | json}}</p>
+
+
+<div class="profile" *ngIf="!mobile">
+  <div><img class="profile-picture" src="{{profile.imageUrl?profile.imageUrl:defaultImage}}"></div>
+
+  <div class="profile-details">
+    <h1 class="profile-name">{{ profile.displayName}}</h1>
+    <p>Contact: <span>{{ profile.email }}</span></p>
+  </div>
+</div>
+
+<div class="mobile-profile" *ngIf="mobile">
+  <div class="mobile-profile-picture"><img class="profile-picture" src="{{profile.imageUrl?profile.imageUrl:defaultImage}}"></div>
+
+  <div class="mobile-profile-details">
+    <h1 class="mobile-profile-name">{{ profile.displayName}}</h1>
+    <p>Contact: <span>{{ profile.email }}</span></p>
+  </div>
+</div>
+
+<table>
+  <tr>
+    <td>
+      <div>
+        <h1 class="profile-events-header">{{ profile.displayName }} is attending these events:</h1>
+
+        <mat-card class="event-card" *ngFor="let e of events" routerLink="/events/{{e.uuid}}">
+          <mat-card-title>{{ (e.name.length<36)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
+          <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''"
+            src="/api/external/image/{{e.thumbnails[0].uuid}}">
+        </mat-card>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="spacer"></div>
+    </td>
+  </tr>
+</table>
+
+
+

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { EventDetails } from 'src/app/models';
+import { DataObject, EventDetails } from 'src/app/models';
 import { EventService } from 'src/app/services/event.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { EventService } from 'src/app/services/event.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  searchResults: EventDetails[] = [];
+  searchResults: DataObject[] = [];
 
   constructor(private activatedRoute: ActivatedRoute, private eventSvc: EventService) {}
 
@@ -19,7 +19,7 @@ export class SearchComponent implements OnInit {
 
     this.eventSvc.search(params).then( result => {
       console.log("search result >> " + result);
-      this.searchResults = result as EventDetails[];
+      this.searchResults = result as DataObject[];
     })
   }
 

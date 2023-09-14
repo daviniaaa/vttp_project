@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
   constructor(private eventSvc: EventService) {}
 
   ngOnInit() {
-    this.eventSvc.getExternalEvents().then(e => {
+    this.eventSvc.getEvents().then(e => {
+    // this.eventSvc.getExternalEvents().then(e => {
       // console.log(e); // returns an array
 
       this.events = e as DataObject[];

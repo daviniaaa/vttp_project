@@ -1,4 +1,4 @@
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
@@ -31,11 +31,11 @@ export class TokenService {
 
     switch(method.toLowerCase()) {
       case 'get':
-          return this.httpClient.get<any>(url, {headers: headers});
+          return this.httpClient.get<any>(url, { headers });
       case 'post':
-          return this.httpClient.post<any>(url, data, {headers: headers});
+          return this.httpClient.post<any>(url, data, { headers });
       case 'put':
-          return this.httpClient.put<any>(url, data, {headers: headers});
+          return this.httpClient.put<any>(url, data, { headers });
       default:
           return this.httpClient.delete<any>(url);
     }

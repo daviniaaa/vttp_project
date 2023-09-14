@@ -1,68 +1,39 @@
 package vttp_project_backend.controller;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
-import vttp_project_backend.exception.CustomException;
-import vttp_project_backend.models.EventDetails;
+import vttp_project_backend.models.BoothDetails;
+// import vttp_project_backend.exception.CustomException;
 import vttp_project_backend.models.UserData;
 import vttp_project_backend.models.ExternalApi.DataObject;
+import vttp_project_backend.service.BoothService;
 import vttp_project_backend.service.EventService;
+import vttp_project_backend.service.ImageService;
 import vttp_project_backend.service.UserService;
-import vttp_project_backend.service.VttpProjectService;
 
-@Controller
+@RestController
 @RequestMapping("/api")
 public class VttpProjectController {
-    @Autowired private VttpProjectService service;
     @Autowired private EventService eventService;
     @Autowired private UserService userService;
-
-    // @PostMapping(path = "/create", consumes = MediaType.APPLICATION_JSON_VALUE)
-    // public ResponseEntity<String> createAccount(@RequestBody @Valid UserRegistration u) {
-    //     System.out.println("postmapping called! createAccount() + u >> " + u.getUserPassword() + "confirm " + u.getconfirmPassword());
-    //     String response = "";
-
-    //     // exceptions handled so no need to catch
-    //     response = service.createUser(u);
-    //     return ResponseEntity.ok(response);
-    // }
-
-    // @PostMapping(path = "/login", consumes = MediaType.APPLICATION_JSON_VALUE)
-    // public ResponseEntity<UserData> login(@RequestBody UserData u) {
-    //     System.out.println("postmapping called! login()");
-    //     System.out.println("u >> " + u.getEmail());
-
-    //     UserData user = new UserData();
-
-    //     // exceptions handled so no need to catch
-    //     user = service.login(u);
-    //     return ResponseEntity.ok(user);
-    // }
-
-    // @PostMapping("/login")
-    // public ResponseEntity<String> login(Authentication auth) {
-    //     System.out.println("auth >> " + auth);
-    //     try {
-    //     String token = tokenSvc.generateToken(auth); 
-    // System.out.println("token >> " + token);
-    //     return ResponseEntity.ofNullable(token);
-    // }
-    //     catch (Exception e) {
-            
-    //     }
-    //     return ResponseEntity.ok("");
-    // }
+    @Autowired private BoothService boothService;
 
     @GetMapping(path = "/home", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<DataObject>> home() {
@@ -71,30 +42,56 @@ public class VttpProjectController {
         return ResponseEntity.ok(events);
     }
 
-    // @GetMapping(path = "/event/{eventId}", produces = MediaType.APPLICATION_JSON_VALUE)
-    // public ResponseEntity<EventDetails> getEvent(@PathVariable String eventId) {
-    //     System.out.println("getmpping called! getEvent()");
-    //     EventDetails e = service.getEventById(eventId);
+    @GetMapping(path = "/event/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<DataObject> getEventById(@PathVariable String id) {
+        System.out.println("getmapping called! getEventById()");
+        Optional<DataObject> event =  eventService.getEventById(id);
 
-    //     return ResponseEntity.ok(e);
-    // }
+        if (event.isEmpty()) {
+            return new ResponseEntity<>(HttpStatusCode.valueOf(404));
+        }
+        return ResponseEntity.ok(event.get());
+    }
 
-    // @GetMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
-    // public ResponseEntity<List<EventDetails>> search(@RequestParam String keyword) {
-    //     System.out.println("getmapping called! search()");
+    @GetMapping(path = "/search", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<DataObject>> search(@RequestParam String keyword) {
+        System.out.println("getmapping called! search()");
 
-    //     String[] keywords = keyword.split("%20");
-    //     List<EventDetails> events =  service.search(keywords);
-    //     return ResponseEntity.ok(events);
-    // }
+        String[] keywords = keyword.split("%20");
+        List<DataObject> events =  eventService.search(keywords);
+        return ResponseEntity.ok(events);
+    }
 
     @GetMapping(path = "/profile/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<UserData> getUser(@PathVariable String id) {
         Optional<UserData> opt = userService.findUserById(id);
 
         if(opt.isEmpty())
-            throw new CustomException("No user with id " + id, HttpStatus.NOT_FOUND);
+            // throw new CustomException("No user with id " + id, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<UserData>(HttpStatusCode.valueOf(404));
         
         return ResponseEntity.ok(opt.get());
     }
+
+    @GetMapping(path = "/booths/{eventId}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<List<BoothDetails>> getBooths(@PathVariable String eventId) {
+        System.out.println("getmapping called! getBooths()");
+        List<BoothDetails> events =  boothService.getBooths(eventId);
+        return ResponseEntity.ok(events);
+    }
+
+    @GetMapping(path = "/profile/{id}/events")
+    public ResponseEntity<List<DataObject>> getEventsByUser(@PathVariable String id) {
+        List<DataObject> list = eventService.getEventsByUser(id);
+
+        if (list.size() == 0) {
+            return new ResponseEntity<>(HttpStatusCode.valueOf(404));
+        }
+
+        return ResponseEntity.ok(list);
+    }
+
+    
+
+    
 }

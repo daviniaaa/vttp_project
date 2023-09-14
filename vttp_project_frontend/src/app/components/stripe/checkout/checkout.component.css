@@ -1,4 +1,12 @@
 /* Variables */
+.test-details {
+  margin: 10vh;
+  margin-right: 0;
+}
+td {
+  padding-left: 4vh;
+}
+
 * {
   box-sizing: border-box;
 }

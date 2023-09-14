@@ -7,35 +7,35 @@
     </mat-card>
   </mat-tab> -->
   <mat-tab label="Attractions">
-    <mat-card class="event-card" *ngFor="let e of eventsAttractions" routerLink="/external/{{e.uuid}}">
+    <mat-card class="event-card" *ngFor="let e of eventsAttractions" routerLink="/events/{{e.uuid}}">
       <mat-card-title>{{ (e.name.length<36)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
       <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''" src="/api/external/image/{{e.thumbnails[0].uuid}}">
       <mat-card-content>{{ e.description.substring(0,50)+"..." }}</mat-card-content>
     </mat-card>
   </mat-tab>
   <mat-tab label="Shopping">
-    <mat-card class="event-card" *ngFor="let e of eventsShopping" routerLink="/external/{{e.uuid}}">
+    <mat-card class="event-card" *ngFor="let e of eventsShopping" routerLink="/events/{{e.uuid}}">
       <mat-card-title>{{ (e.name.length<36)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
       <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''" src="/api/external/image/{{e.thumbnails[0].uuid}}">
       <mat-card-content>{{ e.description.substring(0,50)+"..." }}</mat-card-content>
     </mat-card>
   </mat-tab>
   <mat-tab label="Arts">
-    <mat-card class="event-card" *ngFor="let e of eventsArts" routerLink="/external/{{e.uuid}}">
+    <mat-card class="event-card" *ngFor="let e of eventsArts" routerLink="/events/{{e.uuid}}">
       <mat-card-title>{{ (e.name.length<36)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
       <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''" src="/api/external/image/{{e.thumbnails[0].uuid}}">
       <mat-card-content>{{ e.description.substring(0,50)+"..." }}</mat-card-content>
     </mat-card>
   </mat-tab>
   <mat-tab label="Sports">
-    <mat-card class="event-card" *ngFor="let e of eventsSports" routerLink="/external/{{e.uuid}}">
+    <mat-card class="event-card" *ngFor="let e of eventsSports" routerLink="/events/{{e.uuid}}">
       <mat-card-title>{{ (e.name.length<36)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
       <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''" src="/api/external/image/{{e.thumbnails[0].uuid}}">
       <mat-card-content>{{ e.description.substring(0,50)+"..." }}</mat-card-content>
     </mat-card>
   </mat-tab>
   <mat-tab label="Others">
-    <mat-card class="event-card" *ngFor="let e of eventsOthers" routerLink="/external/{{e.uuid}}">
+    <mat-card class="event-card" *ngFor="let e of eventsOthers" routerLink="/events/{{e.uuid}}">
       <mat-card-title>{{ (e.name.length<32)? e.name : (e.name.substring(0,32)+"...") }}</mat-card-title>
       <img class="event-card-img" *ngIf="e.thumbnails.length>0 && e.thumbnails[0].uuid != ''" src="/api/external/image/{{e.thumbnails[0].uuid}}">
       <mat-card-content>{{ e.description.substring(0,50)+"..." }}</mat-card-content>

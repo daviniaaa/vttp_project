@@ -9,6 +9,13 @@ public class BoothDetails {
     
     public BoothDetails() {
     }
+
+    public BoothDetails(String userDataId, String boothName, String description) {
+        this.userDataId = userDataId;
+        this.boothName = boothName;
+        this.description = description;
+    }
+
     public BoothDetails(String boothId, String userDataId, String eventDetailsId, String boothName,
             String description) {
         this.boothId = boothId;

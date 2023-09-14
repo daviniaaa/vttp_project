@@ -24,12 +24,14 @@
   </button>
 
   <button *ngIf="currentUsername=='Login'" mat-flat-button extended color="primary" routerLink="/login">
-      <mat-icon>person</mat-icon>
+        <mat-icon *ngIf="currentImageUrl == ''">person</mat-icon>
+        <img *ngIf="currentImageUrl != ''" src="{{currentImageUrl}}">
       <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
       <span *ngIf="!mobile">{{ currentUsername }}</span>
   </button>
   <button *ngIf="currentUsername!='Login'" mat-flat-button extended color="primary" [mat-menu-trigger-for]="menu">
-    <mat-icon>person</mat-icon>
+      <mat-icon *ngIf="currentImageUrl == ''">person</mat-icon>
+      <img class="profile-image" *ngIf="currentImageUrl != ''" src="{{currentImageUrl}}">
     <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
     <span *ngIf="!mobile">{{ currentUsername }}</span>
 </button>

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
@@ -23,10 +23,11 @@ import { SettingsComponent } from './components/profile/settings/settings.compon
 import { AccountComponent } from './components/profile/settings/account/account.component';
 import { AdvancedComponent } from './components/profile/settings/advanced/advanced.component';
 import { NotificationsComponent } from './components/profile/settings/notifications/notifications.component';
-import { ExternalComponent } from './components/external/external.component';
 import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
 import { CheckoutsuccessComponent } from './components/stripe/checkoutsuccess/checkoutsuccess.component';
 import { MapComponent } from './components/map/map.component';
+import { DeletedialogComponent } from './components/deletedialog/deletedialog.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -46,10 +47,10 @@ import { MapComponent } from './components/map/map.component';
     AccountComponent,
     AdvancedComponent,
     NotificationsComponent,
-    ExternalComponent,
     CheckoutComponent,
     CheckoutsuccessComponent,
-    MapComponent
+    MapComponent,
+    DeletedialogComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +59,13 @@ import { MapComponent } from './components/map/map.component';
     AppMaterialModule,
     FormsModule, ReactiveFormsModule,
     HttpClientModule,
-    StripeModule //.forRoot("...YOUR-STRIPE-KEY-HERE...") support lazy loading via loadChildren()
+    StripeModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }) //.forRoot("...YOUR-STRIPE-KEY-HERE...") support lazy loading via loadChildren()
   ],
   providers: [],
   bootstrap: [AppComponent]

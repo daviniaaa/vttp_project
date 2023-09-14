@@ -51,6 +51,7 @@ export class CreateaccountComponent implements OnInit {
         this.router.navigate(['/']);
       })
       .catch(error => {
+        console.log(error);
         this.errorSvc.errorMsg = error.error;
         this.errorSvc.errorStatus = error.status;
 

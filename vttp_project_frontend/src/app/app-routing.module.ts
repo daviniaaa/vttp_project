@@ -9,7 +9,6 @@ import { EventComponent } from './components/event/event.component';
 import { CreateboothComponent } from './components/createbooth/createbooth.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SettingsComponent } from './components/profile/settings/settings.component';
-import { ExternalComponent } from './components/external/external.component';
 import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
 import { CheckoutsuccessComponent } from './components/stripe/checkoutsuccess/checkoutsuccess.component';
 
@@ -18,7 +17,6 @@ const routes: Routes = [
   {path: "login", component: LoginComponent},
   {path: "createaccount", component: CreateaccountComponent},
   {path: "events/:eventId", component: EventComponent},
-  {path: "external/:eventId", component: ExternalComponent},
   {path: "createbooth/:eventId", component: CreateboothComponent},
   {path: "search", component: SearchComponent},
   {path: "profile/:profileId", component: ProfileComponent},

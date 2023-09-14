@@ -66,6 +66,10 @@ export class NavbarComponent implements OnInit {
     return this.userSvc.currentUser.userDataId? this.userSvc.currentUser.userDataId : "";
   }
 
+  get currentImageUrl(): string {
+    return this.userSvc.currentUser.imageUrl? this.userSvc.currentUser.imageUrl : "";
+  }
+
   goToProfile() {
     if (this.userSvc.currentUser.userDataId != undefined) {
       const userId: string = this.userSvc.currentUser.userDataId;

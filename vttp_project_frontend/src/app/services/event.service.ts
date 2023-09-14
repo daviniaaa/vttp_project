@@ -13,11 +13,14 @@ export class EventService {
 
   constructor(private httpClient: HttpClient) { }
 
+  getEvents() {
+    return firstValueFrom(this.httpClient.get('/api/home'));
+  }
   getExternalEvents() {
-    return firstValueFrom(this.httpClient.get('/api/external'));//, { responseType: 'text' }));
+    return firstValueFrom(this.httpClient.get('/api/external'));
   }
   getExternalEventByUuid(uuid: string) {
-    return firstValueFrom(this.httpClient.get(`/api/external/${uuid}`));//, { responseType: 'text' }));
+    return firstValueFrom(this.httpClient.get(`/api/external/${uuid}`));
   }
 
   getEvent(id: string) {
@@ -33,4 +36,5 @@ export class EventService {
   getImage(uuid: string) {
     return firstValueFrom(this.httpClient.get(`/api/external/image/${uuid}`, { responseType: 'blob' }));
   }
+
 }

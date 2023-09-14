@@ -9,17 +9,26 @@ import { TokenService } from './token.service';
 })
 export class BoothService {
 
+  currentEventId: string = "";
+
   constructor(private httpClient: HttpClient, private tokenSvc: TokenService) { }
 
-  loadCreateBooth() {
+  // loadCreateBooth() {
     // return firstValueFrom(this.httpClient.get('/api/event', { params: { eventId: id } }));
-    return firstValueFrom(this.httpClient.get("/api/createbooth"));
-  }
-  loadCreateBoothh() {
+    // return firstValueFrom(this.httpClient.get("/api/createbooth"));
+  // }
+  loadCreateBooth() {
     return firstValueFrom(this.tokenSvc.request("get", "/api/createbooth"));
   }
 
-  createBooth(b: BoothDetails) {
-    return firstValueFrom(this.httpClient.post('/api/createbooth', b, { responseType: 'text' }));
+  createBooth(b: BoothDetails, eventId: string) {
+    return firstValueFrom(this.tokenSvc.request("post", `/api/createbooth/${eventId}`, b));
   }
+
+  getBooths(eventId: string) {
+    this.currentEventId = eventId;
+    return firstValueFrom(this.httpClient.get(`/api/booths/${eventId}`));
+  }
+
+
 }

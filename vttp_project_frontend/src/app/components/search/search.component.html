@@ -1,9 +1,9 @@
 <div *ngFor="let searchResult of searchResults">
-  <mat-card class="search-card" routerLink="/events/{{searchResult.eventDetailsId}}">
-    <img class="search-card-img" src="{{searchResult.imageUrl}}">
-    <mat-card-title class="search-card-title">{{searchResult.title}}</mat-card-title>
+  <mat-card class="search-card" routerLink="/external/{{searchResult.uuid}}">
+    <img class="search-card-img" *ngIf="searchResult.thumbnails.length>0 && searchResult.thumbnails[0].uuid != ''"
+      src="/api/external/imageLarge/{{searchResult.thumbnails[0].uuid}}">
 
-
+      <mat-card-title class="search-card-title">{{searchResult.name}}</mat-card-title>
 
   </mat-card>
 </div>

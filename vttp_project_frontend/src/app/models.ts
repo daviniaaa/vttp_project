@@ -68,3 +68,10 @@ export interface DataObject {
   eventDetailList: EventDetailListObject[];
   thumbnails: Thumbnail[];
 }
+
+export interface UserSettings {
+    userSettingsId: string;
+    userDataId: string;
+    emailNotif: boolean;
+    teleNotif: boolean;
+}

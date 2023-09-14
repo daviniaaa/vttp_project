@@ -1,4 +1,4 @@
-<div class="settings-container">
+<div class="settings-container" *ngIf="!isLoading" else loading>
   <div class="settings-options">
     <p [class]="accountFocused" (click)="focus('account')">My Account</p>
     <p [class]="notificationsFocused" (click)="focus('settings')">Notifications</p>
@@ -9,15 +9,19 @@
 
   <div class="details">
     <h1>Settings</h1>
-    <div *ngIf="accountFocused=='settings-option focused'">
+    <div class="details-div" *ngIf="accountFocused=='settings-option focused'">
       <app-account class="component"></app-account>
     </div>
-    <div *ngIf="notificationsFocused=='settings-option focused'">
-      <app-notifications class="component"></app-notifications>
+    <div class="details-div" *ngIf="notificationsFocused=='settings-option focused'">
+      <app-notifications [settings]="settings" class="component"></app-notifications>
     </div>
-    <div *ngIf="advancedFocused=='settings-option focused'">
+    <div class="details-div" *ngIf="advancedFocused=='settings-option focused'">
       <app-advanced class="component"></app-advanced>
     </div>
   </div>
 
 </div>
+
+<ng-template #loading>
+  <h1>Loading...</h1>
+</ng-template>

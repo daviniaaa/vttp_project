@@ -7,14 +7,17 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 
 import vttp_project_backend.exception.CreateAccountException;
+import vttp_project_backend.exception.DeleteAccountException;
 import vttp_project_backend.exception.ExistingEmailException;
 import vttp_project_backend.exception.NoExistingEmailException;
 import vttp_project_backend.exception.WrongPasswordException;
 import vttp_project_backend.models.UserData;
+import vttp_project_backend.models.UserSettings;
 import vttp_project_backend.records.LoginDTO;
 import vttp_project_backend.records.RegisterDTO;
 import vttp_project_backend.records.UserDTO;
@@ -45,6 +48,7 @@ public class UserService {
 
     }
 
+    @Transactional(rollbackFor = CreateAccountException.class)
     public UserData createUser(RegisterDTO registerDTO) {
         Optional<UserData> optionalUser = userRepo.findUserByEmail(registerDTO.email());
 
@@ -62,7 +66,8 @@ public class UserService {
 
             // in case server error
             boolean success = userRepo.createUser(user);
-            if (!success) {
+            boolean success2 = userRepo.createUserSettings(id);
+            if (!success && !success2) {
                 throw new CreateAccountException();
             } 
             
@@ -83,5 +88,30 @@ public class UserService {
 
     public Optional<UserData> findUserById(String id) {
         return userRepo.findUserById(id);
+    }
+
+    public Optional<UserSettings> getUserSettings(String id) {
+        return userRepo.getUserSettings(id);
+    }
+
+    public boolean updateUserSettings(UserSettings u) {
+        return userRepo.updateUserSettings(u);
+    }
+
+    public boolean updateUserData(String url, String id) {
+        return userRepo.updateUserData(url, id);
+    }
+
+    @Transactional(rollbackFor = DeleteAccountException.class)
+    public boolean deleteUser(String id) {
+
+        boolean success2 = userRepo.deleteUserSettings(id);
+        boolean success = userRepo.deleteUser(id);
+
+        if (!success && !success2 ) {
+            throw new DeleteAccountException();
+        }
+
+        return true;
     }
 }

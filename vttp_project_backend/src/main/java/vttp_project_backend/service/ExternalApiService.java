@@ -1,6 +1,5 @@
 package vttp_project_backend.service;
 
-import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
@@ -42,13 +41,8 @@ public class ExternalApiService {
         DataObject[] data = resp.getBody().data();
         System.out.println("service method dataobject[] size >> " + data.length);
 
-        // List<EventDetailListObject> edloList = new LinkedList<>();
         List<DataObject> doList = new LinkedList<>();
         for (DataObject d : data) {
-            // if (d.eventDetailList().length == 0)
-            //     continue;
-            
-            // edloList.add(d.eventDetailList()[0]); 
             doList.add(d); 
         }
         

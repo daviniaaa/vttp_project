@@ -1,4 +1,19 @@
-img {
-  max-width: 90vh;
-  max-height: 40vh;
+.tags {
+  background-color:lavender;
+  border-radius: 5px;
+  padding: 0.1%;
+  margin-right: 1%;
+}
+
+.large-image {
+  max-width: 80%;
+  max-height: 20%;
+}
+
+.spacer {
+  height: 10vh;
+}
+
+.address-block {
+  padding-top: 5%;
 }

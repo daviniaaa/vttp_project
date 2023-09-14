@@ -19,17 +19,24 @@
 }
 
 .focused {
-  background-color: aliceblue;
+  background-color: lavender;
 }
 
 .settings-option:hover {
   cursor: pointer;
-  background-color: aliceblue;
+  background-color: lavender;
 }
 
 .details {
   padding: 2%;
   padding-left: 5%;
+}
+.details-div {
+  display: block;
+  width: 70vh;
+  height: 60vh;
+  margin: 5%;
+  margin-left: 10%;
 }
 
 .component {
@@ -37,3 +44,4 @@
   width: 70vh;
   height: 60vh;
 }
+

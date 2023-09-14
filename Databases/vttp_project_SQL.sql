@@ -9,7 +9,8 @@ create table user_data(
     image_url varchar(256),
     constraint pk_user_data_id primary key (user_data_id)
 );
-
+select * from user_data where display_name = "dawoco";
+delete from user_data where user_data_id = "55a4604e";
 insert into user_data (user_data_id, email, display_name, user_password, image_url) values ("a","a","a","a","a");
 select * from user_data where (email, user_password) = ("a", "a");
 create table user_settings(
@@ -20,7 +21,8 @@ create table user_settings(
 	constraint pk_user_settings_id primary key (user_settings_id),
     constraint fk_user_data_settings_id foreign key (user_data_id) references user_data(user_data_id)
 );
-
+select * from user_settings;
+insert into user_settings(user_settings_id, user_data_id) values ("417df943","417df943");
 
 -- insert into event_details (event_details_id, user_data_id, title, description, image_url, category) values 
 -- 	("dean134s","a","Dog Event","dogdog", "https://vttp-davinia.sgp1.digitaloceanspaces.com/image/eac5a4b5", "lifestyle");
@@ -47,7 +49,7 @@ create table user_settings(
 --     constraint pk_event_details_id primary key (event_details_id),
 --     constraint fk_user_data_event_id foreign key (user_data_id) references user_data(user_data_id)
 -- );
-
+select * from event_details;
 create table event_details(
 	event_details_id varchar(8) not null,
     user_data_id varchar(8) not null,
@@ -60,13 +62,14 @@ insert into event_details (event_details_id, user_data_id) values ("catn134s","a
 insert into event_details (event_details_id, user_data_id) values ("runn134s","a");
 insert into event_details (event_details_id, user_data_id) values ("nusn134s","a");
 
+select * from booth_details;
 create table booth_details(
 	booth_id varchar(8) not null,
     user_data_id varchar(8) not null,
-    event_details_id varchar(8) not null,
+    event_details_id varchar(35) not null,
     booth_name varchar(128) not null,
     description text not null,
     constraint pk_booth_id primary key (booth_id),
-    constraint fk_user_data_booth_id foreign key (user_data_id) references user_data(user_data_id),
-    constraint fk_event_details_id foreign key (event_details_id) references event_details(event_details_id)
+    constraint fk_user_data_booth_id foreign key (user_data_id) references user_data(user_data_id) -- ,
+    -- constraint fk_event_details_id foreign key (event_details_id) references event_details(event_details_id)
 );

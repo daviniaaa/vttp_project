@@ -1,1 +1,6 @@
-<p>account works!</p>
+<h3>Account Information</h3>
+
+<div><img class="profile-picture" src="{{currentImageUrl?currentImageUrl:defaultImage}}"></div>
+
+<input type="file" (input)="imageSelected()" #image>
+<button (click)="post()">Update profile picture</button>

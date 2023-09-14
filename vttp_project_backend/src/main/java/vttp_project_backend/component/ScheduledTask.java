@@ -17,8 +17,8 @@ public class ScheduledTask {
 		"a", "b", "c", "d", "e", "f", "g", "h",
 		"i", "j", "k", "l", "m", "n", "o", "p",
 		"q", "r", "s", "t", "u", "v", "w", "x",
-		"y", "z", "0", "1", "2", "3", "4", "5",
-		"6", "7", "8", "9"
+		"y", "z" 	//, "0", "1", "2", "3", "4", "5",
+					//"6", "7", "8", "9"
 	}; 
 
 	private int count = 0;
@@ -26,16 +26,16 @@ public class ScheduledTask {
 	@Autowired ExternalApiService extApiService;
 	@Autowired EventService eventService;
 
-    // @Scheduled(fixedRate = 20 * 1000) // in milliseconds
-	// public void reportCurrentTime() {
-	// 	System.out.println("The time is now " + (new Date()).toString());
-	// 	System.out.println("count >> " + count);
+    @Scheduled(fixedRate = 5 * 60 * 1000) // in milliseconds
+	public void reportCurrentTime() {
+		System.out.println("The time is now " + (new Date()).toString());
+		System.out.println("count >> " + count);
 
-	// 	List<DataObject> list = extApiService.getFromExternalApi(searchValuesArray[count%36], 50);
-	// 	for (DataObject d : list) {
-	// 		eventService.addToDatabase(d);
-	// 	}
+		List<DataObject> list = extApiService.getFromExternalApi(searchValuesArray[count%26]);
+		for (DataObject d : list) {
+			eventService.addToDatabase(d);
+		}
 
-	// 	count ++;
-	// }
+		count ++;
+	}
 }

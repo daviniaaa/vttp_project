@@ -22,7 +22,8 @@ public class SecurityConfig {
             .sessionManagement(customizer -> customizer.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(requests -> requests
                 // .requestMatchers("/**").permitAll())
-                .requestMatchers("/api/createbooth", "/api/settings").authenticated()
+                .requestMatchers("/api/createbooth", "/api/settings", 
+                    "/api/delete", "/api/upload").authenticated()
                 .anyRequest().permitAll());
             
             // .addFilterAt(new JwtAuthenticationFilter(userAuth), BasicAuthenticationFilter.class)

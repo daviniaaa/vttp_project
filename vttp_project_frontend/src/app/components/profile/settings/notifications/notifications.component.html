@@ -1,1 +1,14 @@
-<p>notifications works!</p>
+<h3>Notifications</h3>
+<table>
+  <tr>
+    <td><mat-slide-toggle [(ngModel)]="emailNotif" (toggleChange)="updateSettings()">
+      Email Notifications: {{emailNotif?"On":"Off"}}</mat-slide-toggle></td>
+  </tr>
+  <tr>
+    <td><mat-slide-toggle [(ngModel)]="teleNotif" (toggleChange)="updateSettings()">
+      Recommended events, bootths: {{teleNotif?"On":"Off"}}</mat-slide-toggle></td>
+  </tr>
+</table>
+
+
+
