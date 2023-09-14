@@ -11,6 +11,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { SettingsComponent } from './components/profile/settings/settings.component';
 import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
 import { CheckoutsuccessComponent } from './components/stripe/checkoutsuccess/checkoutsuccess.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: "settings", component: SettingsComponent},
   {path: "checkout", component: CheckoutComponent},
   {path: "checkoutsuccess", component: CheckoutsuccessComponent},
+  {path: "aboutme", component: AboutmeComponent},
   {path: "**", component: NotfoundComponent}
 ];
 

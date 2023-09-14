@@ -1,3 +1,28 @@
+.landing-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+.landing-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.centered {
+  font-size: 80px;
+  font-weight: 500;
+  position: absolute;
+  /* top: 50%; */
+  left: 10vh;
+  /* transform: translate(-50%, -50%); */
+}
+
 .event-card {
   position:static;
   min-width: 15em;

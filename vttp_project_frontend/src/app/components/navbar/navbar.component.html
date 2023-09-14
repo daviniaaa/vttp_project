@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
   <button mat-flat-button extended color="primary" routerLink="/">
-      <mat-icon >home</mat-icon>
-      <span *ngIf="!mobile">vttp-project</span>
+      <mat-icon>home</mat-icon>
+      <span *ngIf="!mobile">Eventful</span>
   </button>
   <span class="spacer-between-home-and-search"></span>
 
@@ -18,19 +18,25 @@
   </form>
 
   <span *ngIf="!mobile" class="example-spacer"></span>
+  <button mat-flat-button color="primary" routerLink="/aboutme">
+    <mat-icon>info</mat-icon>
+    <span *ngIf="!mobile">About this project</span>
+  </button>
+
 
   <button mat-mini-fab routerLink="/checkout">
     <mat-icon>attach_money</mat-icon>
   </button>
 
+
   <button *ngIf="currentUsername=='Login'" mat-flat-button extended color="primary" routerLink="/login">
-        <mat-icon *ngIf="currentImageUrl == ''">person</mat-icon>
+        <mat-icon *ngIf="currentImageUrl == ''">account_circle</mat-icon>
         <img *ngIf="currentImageUrl != ''" src="{{currentImageUrl}}">
       <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
       <span *ngIf="!mobile">{{ currentUsername }}</span>
   </button>
   <button *ngIf="currentUsername!='Login'" mat-flat-button extended color="primary" [mat-menu-trigger-for]="menu">
-      <mat-icon *ngIf="currentImageUrl == ''">person</mat-icon>
+      <mat-icon *ngIf="currentImageUrl == ''">account_circle</mat-icon>
       <img class="profile-image" *ngIf="currentImageUrl != ''" src="{{currentImageUrl}}">
     <!-- <span>{{ userSvc.currentUser.displayName }}</span> -->
     <span *ngIf="!mobile">{{ currentUsername }}</span>

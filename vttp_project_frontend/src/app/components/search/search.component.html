@@ -1,5 +1,5 @@
 <div *ngFor="let searchResult of searchResults">
-  <mat-card class="search-card" routerLink="/external/{{searchResult.uuid}}">
+  <mat-card class="search-card" routerLink="/events/{{searchResult.uuid}}">
     <img class="search-card-img" *ngIf="searchResult.thumbnails.length>0 && searchResult.thumbnails[0].uuid != ''"
       src="/api/external/imageLarge/{{searchResult.thumbnails[0].uuid}}">
 

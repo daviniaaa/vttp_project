@@ -26,7 +26,7 @@ public class ScheduledTask {
 	@Autowired ExternalApiService extApiService;
 	@Autowired EventService eventService;
 
-    @Scheduled(fixedRate = 5 * 60 * 1000) // in milliseconds
+    @Scheduled(fixedRate = 24 * 60 * 60 * 1000) // in milliseconds
 	public void reportCurrentTime() {
 		System.out.println("The time is now " + (new Date()).toString());
 		System.out.println("count >> " + count);
