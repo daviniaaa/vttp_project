@@ -25,7 +25,8 @@ import { AdvancedComponent } from './components/profile/settings/advanced/advanc
 import { NotificationsComponent } from './components/profile/settings/notifications/notifications.component';
 import { ExternalComponent } from './components/external/external.component';
 import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
-import { DonateComponent } from './components/stripe/donate/donate.component';
+import { CheckoutsuccessComponent } from './components/stripe/checkoutsuccess/checkoutsuccess.component';
+import { MapComponent } from './components/map/map.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { DonateComponent } from './components/stripe/donate/donate.component';
     NotificationsComponent,
     ExternalComponent,
     CheckoutComponent,
-    DonateComponent
+    CheckoutsuccessComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

@@ -69,8 +69,8 @@ export class CheckoutComponent implements OnInit {
       elements: this.elements,
       confirmParams: {
         // Make sure to change this to your payment completion page
-        // return_url: "http://localhost:4200",
-        return_url: "https://davinia.konbini.dev/",
+        // return_url: "http://localhost:4200/#/checkoutsuccess",
+        return_url: "https://davinia.konbini.dev/#/checkoutsuccess",
       },
     });
 
@@ -85,7 +85,6 @@ export class CheckoutComponent implements OnInit {
       this.showMessage("An unexpected error occurred.");
     }
 
-    alert("Donation Successful!");
     this.setLoading(false);
   }
 

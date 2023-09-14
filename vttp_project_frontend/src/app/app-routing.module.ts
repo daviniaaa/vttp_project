@@ -11,7 +11,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { SettingsComponent } from './components/profile/settings/settings.component';
 import { ExternalComponent } from './components/external/external.component';
 import { CheckoutComponent } from './components/stripe/checkout/checkout.component';
-import { DonateComponent } from './components/stripe/donate/donate.component';
+import { CheckoutsuccessComponent } from './components/stripe/checkoutsuccess/checkoutsuccess.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
@@ -23,7 +23,8 @@ const routes: Routes = [
   {path: "search", component: SearchComponent},
   {path: "profile/:profileId", component: ProfileComponent},
   {path: "settings", component: SettingsComponent},
-  {path: "donate", component: CheckoutComponent},
+  {path: "checkout", component: CheckoutComponent},
+  {path: "checkoutsuccess", component: CheckoutsuccessComponent},
   {path: "**", component: NotfoundComponent}
 ];
 

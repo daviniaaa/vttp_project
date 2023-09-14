@@ -22,6 +22,10 @@ export class CreateboothComponent implements OnInit {
 
       // const eventId = this.activatedRoute.snapshot.params['eventId'];
       // this.router.navigate(['/events', eventId]);
+      alert("Your login session has expired. Please log in again.");
+      this.userSvc.currentUser = { email: "", userPassword: "" };
+      this.userSvc.setCurrentUser(null);
+
       this.router.navigate(['/login']);
     })
 

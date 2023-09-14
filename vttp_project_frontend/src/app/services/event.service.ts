@@ -7,6 +7,10 @@ import { firstValueFrom } from 'rxjs';
 })
 export class EventService {
 
+  currentEventLat = 0;
+  currentEventLng = 0;
+
+
   constructor(private httpClient: HttpClient) { }
 
   getExternalEvents() {

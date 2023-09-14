@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.stripe.exception.StripeException;
-import com.stripe.model.PaymentIntent;
-import com.stripe.param.PaymentIntentCreateParams;
 
-import vttp_project_backend.models.Stripe.CreatePaymentResponse;
 import vttp_project_backend.service.StripeService;
 
 @RestController

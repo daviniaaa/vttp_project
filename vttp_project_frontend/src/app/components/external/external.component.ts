@@ -27,6 +27,10 @@ export class ExternalComponent {
         .replaceAll("\<br>", "").replaceAll("\<i>", "").replaceAll("\</i>", "")
         .replaceAll("amp;", "").replaceAll("&g", "").replaceAll("&l", "").replaceAll("&nb", "")
         .replaceAll("t;", "").replaceAll("sp;", "")
+
+      this.eventSvc.currentEventLat = parseFloat(this.event.location.latitude);
+      this.eventSvc.currentEventLng = parseFloat(this.event.location.longitude);
+
     })
 
   }
